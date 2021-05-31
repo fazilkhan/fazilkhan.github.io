@@ -1,0 +1,34 @@
+# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Build site
+
+on: [ workflow_dispatch ]
+ 
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install Requirements
+      run: pip install -r requirements.txt
+
+    - name: Execute Python script
+      run: |
+        python update.py
+    - name: setup git config
+      run: |
+        git config user.name "Jonathan Soma"
+        git config user.email "jonathan.soma@gmail.com"
+    - name: commit changes
+      run: |
+        git add . && git commit -m "Updated Repository data" && git push origin master
