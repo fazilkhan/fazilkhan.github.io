@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="{{#if relativePrefix}}{{relativePrefix}}/{{/if}}style/default.css">
     
     <!-- google fonts: Roboto Condensed(super-font) and Lora(sub-font) -->
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
   
     <title>{{name}} projects page</title>
   </head>
@@ -47,7 +48,7 @@
                     {{#each pages}}
                       <div class='story'>
                             <img class='preview-image' src="{{this.image}}" alt="There is supposed to be an image here">
-                            <h3 class="subhead super-font"><a href="{{ this.slug }}/">{{ this.title }}</a></h3>
+                            <h3 class="subhead super-font"><a href="{{ this.slug }}/" style="color: rgb(48, 48, 48)">{{ this.title }}</a></h3>
                       </div>
                     
                     
