@@ -16,8 +16,8 @@ import shutil
 
 templateLoader = jinja2.FileSystemLoader(searchpath="./templates")
 templateEnv = jinja2.Environment(loader=templateLoader)
-story_template = templateEnv.get_template("story.html")
-homepage_template = templateEnv.get_template("homepage.html")
+story_template = templateEnv.get_template("gdoc.hbs")
+homepage_template = templateEnv.get_template("home.hbs")
 
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
