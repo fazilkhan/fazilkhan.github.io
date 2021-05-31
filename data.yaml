@@ -9,17 +9,17 @@ links:
     text: '@fazilk_'
 pages:
   - type: gdoc
-    image: static/story_1_img.jpeg
+    image: /Users/khanfazil/Desktop/portfolio-website/static/story_1_img.jpeg
     title: 'Unseen Crisis: How the Lockdown and Migrant Exodus Affected Small-Landlords in India'
     slug: How the Lockdown and Migrant Exodus Affected Small-Landlords in India
     url: https://docs.google.com/document/d/1RwxJfUPT7e8vevoLdpB_sj0NF619Y400n0E7pl4ttZc/edit?usp=sharing
   - type: gdoc
-    image: static/story_2_img.jpeg
+    image: /Users/khanfazil/Desktop/portfolio-website/static/story_2_img.jpeg
     title: 'Pandemic Effect: A Decline in Traffic Congestion Across Major Cities'
     slug: A Decline in Traffic Congestion Across Major Cities
     url: https://docs.google.com/document/d/1R-ynPVXRZLFtqOFmI6H8S9OtjgPaRpl-U5n5jbbSEaE/edit?usp=sharing
   - type: html
-    image: static/story_3_img.jpeg
+    image: /Users/khanfazil/Desktop/portfolio-website/static/story_3_img.jpeg
     title: How I scraped Traffic Data for my Story
     slug: Traffic data scraping and cleaning walkthrough. 
-    filepath: content/output.html
+    filepath: /Users/khanfazil/Desktop/portfolio-website/content/output.html
