@@ -205,4 +205,3 @@ with open("details.yaml") as fp:
         details['projects'] = projects
         hp_content = homepage_template.render(**details)
         fp.write(hp_content)
-Loading comple
