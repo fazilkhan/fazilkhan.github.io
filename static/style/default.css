@@ -86,6 +86,7 @@ sub-font
 }
 
 .headline-name, h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 70px;
     line-height: 0.9;
     margin-bottom: -15px;
