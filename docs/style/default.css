@@ -17,6 +17,8 @@ body {
     font-family: Calibri;
     font-size: 10px;
     padding-top: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 ul.spread {
@@ -53,6 +55,14 @@ img {
 
 .container {
         max-width: 975px;
+}
+
+.col-sm-5 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 0px;
 }
 
 
@@ -148,11 +158,11 @@ sub-font
 }
 
 .subhead, h2 {
-    font-size: 30px;
-    line-height: 1.2;
+    font-size: 22px;
+    line-height: 1.3;
     margin-bottom: 0.5rem;
-    margin-top: 1.5rem;
-    font-weight: 500;
+    margin-top: -5px;
+    font-weight: 700;
 }
 
 .label {
@@ -189,4 +199,9 @@ sub-font
 .preview-image {
     width:300px;
     height:200px;
+}
+
+.actual_slug {
+    font-size: 15px;
+    margin-top: 12px;
 }

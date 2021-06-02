@@ -10,11 +10,13 @@ links:
 pages:
   - type: gdoc
     image: story_1_img.jpeg
+    subtext: "The plight of tenants in India and around the world in the face of the pandemic has become well known. But in India, the crisis has had another, scarcely remarked class of victims, in many thousands of small-scale urban landlords"
     title: 'Unseen Crisis: How the Lockdown and Migrant Exodus Affected Small-Landlords in India'
     slug: How the Lockdown and Migrant Exodus Affected Small-Landlords in India
     url: https://docs.google.com/document/d/1RwxJfUPT7e8vevoLdpB_sj0NF619Y400n0E7pl4ttZc/edit?usp=sharing
   - type: gdoc
     image: story_2_img.jpeg
+    subtext: "Bengaluru in India saw the sharpest decline in traffic congestion in 2020 followed by Manila in the Philippines"
     title: 'Pandemic Effect: A Decline in Traffic Congestion Across Major Cities'
     slug: A Decline in Traffic Congestion Across Major Cities
     url: https://docs.google.com/document/d/1R-ynPVXRZLFtqOFmI6H8S9OtjgPaRpl-U5n5jbbSEaE/edit?usp=sharing
