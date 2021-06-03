@@ -205,3 +205,61 @@ sub-font
     font-size: 15px;
     margin-top: 12px;
 }
+
+@media screen and (max-width: 400px) {
+
+    .container {
+        max-width: 375px;
+    }
+
+    .story {
+        color: #000;
+        font-family: Calibri;
+        font-size: 10px;
+        padding-top: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .preview-image {
+        width:375px;
+        height:250px;
+    }
+
+    .col-sm-5 {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .col-sm-7 {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-top: 15px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    p.actual_slug {
+        font-size: 15px;
+        margin-top: 12px;
+        margin-bottom: 5px;
+    }
+
+    .headline-name, h1 {
+        font-family: 'Oleo Script Swash Caps', cursive;
+        font-size: 80px;
+        line-height: 0.9;
+        margin-bottom: -15px;
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+
+
+}
