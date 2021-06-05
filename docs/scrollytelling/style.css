@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-height: 1280px;
+  color: #3b3b3b;
+  font-size: 24px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+a {
+  margin: 0;
+  font-weight: 400;
+}
+
+a,
+a:visited,
+a:hover {
+  color: #313131;
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
+  font-size: 22px
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: #f3f3f3;
+  padding: 1rem;
+  padding-right: 1rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.nav__examples {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.nav__examples > * {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+article {
+  position: relative;
+  padding: 0;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+.sticky-thing {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  background-color: #8a8a8a;
+  z-index: 0;
+  top: 5.7vh;
+  height: 650px;
+  /* Center everything inside */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('images/banner.jpeg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.sticky-thing-2 {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  background-color: #8a8a8a;
+  z-index: 0;
+  top: 5.7vh;
+  height: 650px;
+  /* Center everything inside */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('images/covid-5.jpeg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.sticky-thing p {
+  font-size: 8rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.step {
+  margin: 0 auto 2rem auto;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-bottom: 350px;
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step.is-active p {
+  background-color: #dea81fd9;
+  color: #3b3b3b;
+}
+
+.step p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 17px;
+  background-color: #3b3b3bbd;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.3;
+}
+
+#intro {
+  max-width: 40rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.intro__hed {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 45px;
+  margin: 2rem auto 1rem auto;
+}
+
+.intro__dek {
+  color: #8a8a8a;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+}
+
+#intro_text {
+  margin:2rem auto 0.5rem auto;
+  font-family: 'Lato', sans-serif;
+  font-size:18px;
+  max-width: 40rem;
+  text-align: 'center';
+  line-height: 1.3;
+
+}
+
+.credit {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+#intro {
+  margin-bottom: 42px;
+  max-width: 40rem;
+  text-align: left;
+}
+
+#outro {
+  height: 640px;
+}
+
+@media (min-width: 840px) {
+  .nav__examples {
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  a, a:visited, a:hover {
+    color: #313131;
+    text-decoration: none;
+    border-bottom: 2px solid currentColor;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 1280px;
+    /* color: #3b3b3b; */
+    /* font-size: 8px; */
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .intro__hed {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-size: 30px;
+    margin: 2rem auto 1rem auto;
+  }
+
+  .nav__examples > * {
+    margin-right: 1.5rem;
+    margin-left: 0rem;
+  }
+
+  .intro__dek {
+    color: #8a8a8a;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  .sticky-thing {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background-color: #8a8a8a;
+    z-index: 0;
+    top: 10vh;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/banner.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  .sticky-thing-2 {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background-color: #8a8a8a;
+    z-index: 0;
+    top: 10vh;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/covid-5.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+
+}
