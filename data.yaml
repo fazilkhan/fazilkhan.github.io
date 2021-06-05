@@ -2,16 +2,16 @@ name: Fazil Khan
 bio: I'm a journalist. Deal with it.
 links:
   - target: mailto:fk2402@columbia.edu
-    socialimage: static/email.png
+    socialimage: email.png
     tooltip: Email
   - target: https://www.linkedin.com/in/fazilkhan444/
     socialimage: linkedin.png
     tooltip: Linkedin
   - target: https://twitter.com/fazilk_
-    socialimage: static/twitter.png
+    socialimage: twitter.png
     tooltip: Twitter
   - target: https://t.me/fazilkhan444
-    socialimage: static/telegram.png
+    socialimage: telegram.png
     tooltip: Telegram
 pages:
   - type: gdoc
