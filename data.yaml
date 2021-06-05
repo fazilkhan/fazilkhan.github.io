@@ -2,11 +2,17 @@ name: Fazil Khan
 bio: I'm a journalist. Deal with it.
 links:
   - target: mailto:fk2402@columbia.edu
-    text: 📧 email
+    socialimage: /Users/khanfazil/Desktop/portfolio-website/static/email.png
+    tooltip: Email
   - target: https://www.linkedin.com/in/fazilkhan444/
-    text: 🏠 Linkedin
+    socialimage: /Users/khanfazil/Desktop/portfolio-website/static/linkedin.png
+    tooltip: Linkedin
   - target: https://twitter.com/fazilk_
-    text: '@fazilk_'
+    socialimage: /Users/khanfazil/Desktop/portfolio-website/static/twitter.png
+    tooltip: Twitter
+  - target: https://t.me/fazilkhan444
+    socialimage: /Users/khanfazil/Desktop/portfolio-website/static/telegram.png
+    tooltip: Telegram
 pages:
   - type: gdoc
     image: story_1_img.jpeg
@@ -20,7 +26,7 @@ pages:
     title: 'Pandemic Effect: A Decline in Traffic Congestion Across Major Cities'
     slug: A Decline in Traffic Congestion Across Major Cities
     url: https://docs.google.com/document/d/1R-ynPVXRZLFtqOFmI6H8S9OtjgPaRpl-U5n5jbbSEaE/edit?usp=sharing
-  - type: html
+  - type: html_bootstrap
     image: story_3_img.jpeg
     title: How I scraped Traffic Data for my Story
     slug: Traffic data scraping and cleaning walkthrough. 

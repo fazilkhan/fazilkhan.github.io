@@ -41,7 +41,8 @@
                     <p>{{ bio }}</p>
                     <ul class='spread'>
                         {{#each links}}
-                            <li><a href="{{this.target}}" target="_blank">{{ this.text }}</a></li>
+                          <li><a href="{{this.target}}" target="_blank"><img class="social" src="{{ this.socialimage }}"></a>
+                          </li>
                         {{/each}}
                     </ul>
     

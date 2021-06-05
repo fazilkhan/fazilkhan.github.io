@@ -87,7 +87,7 @@ sub-font
 
 
 
-.super-font, h1, h2, .label + p {
+.super-font, h1, .label + p {
     font-family: 'Oleo Script Swash Caps', cursive;
 }
 
@@ -130,6 +130,7 @@ sub-font
 }
 
 .credit  {
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     line-height: 0.75;
     margin-top: 2rem;
@@ -138,7 +139,7 @@ sub-font
 }
 
 .date {
-    font-size: 1rem;
+    font-size: 15px;
     line-height: 1;
     margin-top: 0.25;
     font-weight: 400;
@@ -155,15 +156,20 @@ sub-font
 
 .subhead, h3 {
     font-family: 'Encode Sans Semi Expanded', sans-serif;
-}
-
-.subhead, h2 {
     font-size: 22px;
     line-height: 1.3;
     margin-bottom: 0.5rem;
     margin-top: -5px;
     font-weight: 700;
 }
+
+/* .subhead, h2 {
+    font-size: 22px;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    margin-top: -5px;
+    font-weight: 700;
+} */
 
 .label {
     font-size: 1.25rem;
@@ -204,6 +210,10 @@ sub-font
 .actual_slug {
     font-size: 15px;
     margin-top: 12px;
+}
+
+img.social {
+    max-width: 20%;
 }
 
 @media screen and (max-width: 400px) {
@@ -258,6 +268,35 @@ sub-font
         margin-top: 0px;
         font-weight: 500;
         text-align: center;
+    }
+
+    .subhead, h3 {
+        font-size: 20px;
+        line-height: 1.3;
+        font-weight: 700;
+    }
+
+    .headline, h1 {
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 0.25rem;
+        margin-top: 1rem;
+        text-align: left;
+        font-weight: 500;
+    }
+
+    .credit  {
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        line-height: 0.75;
+        margin-top: 2rem;
+        font-weight: 400;
+        text-transform: none;
+    }
+
+    img.social {
+        max-width: 60%;
     }
 
 
