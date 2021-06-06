@@ -1,5 +1,5 @@
 name: Fazil Khan
-bio: A data journalist currently based in New York.
+bio: Data journalist currently based in New York.
 links:
   - target: mailto:fk2402@columbia.edu
     socialimage: email.png
@@ -30,4 +30,4 @@ pages:
     image: story_3_img.jpeg
     title: How I scraped Traffic Data for my Story
     slug: Traffic data scraping and cleaning walkthrough. 
-    filepath: /Users/khanfazil/Desktop/portfolio-website/content/output.html
+    filepath: content/output.html
