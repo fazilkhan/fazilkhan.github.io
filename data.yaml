@@ -28,6 +28,15 @@ pages:
     url: https://docs.google.com/document/d/1R-ynPVXRZLFtqOFmI6H8S9OtjgPaRpl-U5n5jbbSEaE/edit?usp=sharing
   - type: html
     image: story_3_img.jpeg
+    subtext: A walkthrough of how I used Selenium to scrape traffic congestion data from TomTom Index and cleaned it in Pandas
     title: How I scraped Traffic Data for my Story
+    template: html_bootstrap
     slug: Traffic data scraping and cleaning walkthrough. 
     filepath: content/output.html
+  - type: html
+    image: banner.jpeg
+    subtext: During both of India’s COVID-19 outbreaks, the government hasn’t published sex-disaggregated data on deaths due to the disease since May 2020
+    title: India Is Still Short On Sex-Disaggregated COVID-19 Data
+    template: html_bootstrap
+    slug: India Is Still Short On Sex-Disaggregated COVID-19 Data
+    filepath: static/scrollytelling/first-scrolly.html
