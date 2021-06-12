@@ -33,3 +33,9 @@ pages:
     template: html_bootstrap
     slug: Traffic data scraping and cleaning walkthrough. 
     filepath: content/output.html
+  - type: gdoc
+    image: story-christchurch-lanka.jpeg
+    subtext: "Pakistan is the worst affected country in South Asia with 217 incidents of attack on religious institutions since 2000 which resulted in 1,566 fatalities"
+    title: 'From Christchurch to Sri Lanka, Terror Attacks on Places of Worship Show Alarming Rise'
+    slug: From Christchurch to Sri Lanka, Terror Attacks on Places of Worship Show Alarming Rise
+    url: https://docs.google.com/document/d/1c2q7okPKJhvn7fF0AHZ_JEaQtLIcRceEBDlTaDor6yE/edit?usp=sharing
