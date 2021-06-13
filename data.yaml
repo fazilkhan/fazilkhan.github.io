@@ -7,6 +7,9 @@ links:
   - target: https://www.linkedin.com/in/fazilkhan444/
     socialimage: linkedin.png
     tooltip: Linkedin
+  - target: https://infogram.com/fazil-khan-latest-resume-1hzj4o08mlyd4pw
+    socialimage: resume.png
+    tooltip: Linkedin    
   - target: https://twitter.com/fazilk_
     socialimage: twitter.png
     tooltip: Twitter
@@ -49,13 +52,13 @@ pages:
     image: pocso.jpeg
     subtext: "Relevant sections of the POCSO Act were invoked in just 7,498 cases, whereas only Section 376 of the IPC was invoked in the rest"
     title: "17,500 Children were Raped in a Year. The Law to Ensure Justice for them wasn't Invoked in 57% of those Cases"
-    slug: "17,500 Children were Raped in a Year. The Law to Ensure Justice for them wasn't Invoked in 57% of those Cases"
+    slug: "17500 Children were Raped in a Year The Law to Ensure Justice for them wasnt Invoked in 57% of those Cases"
     url: https://docs.google.com/document/d/1GYSmgmpSTWqLthJ3810pNwLnRaT15thZmvEuUQCZ7EY/edit?usp=sharing
   - type: gdoc
     image: cricket-world-cup.jpeg
     subtext: "Apart from the India vs New Zealand fixture, the other two abandoned matches in this World Cup were, Pakistan vs Sri Lanka on June 7 and Bangladesh vs Sri Lanka on June 11"
     title: "It's Already History's Wettest Cricket World Cup and Rain Threat for 5 of India's Next 6 Matches is Over 50%"
-    slug: "It's Already History's Wettest Cricket World Cup and Rain Threat for 5 of India's Next 6 Matches is Over 50%"
+    slug: "Its Already Historys Wettest Cricket World Cup and Rain Threat for 5 of Indias Next 6 Matches is Over 50%"
     url: https://docs.google.com/document/d/1ZFnRlp-KNMfjahTSp5vwvUxdeWh1QBU6l7rmERxREWg/edit?usp=sharing
   - type: gdoc
     image: ppp.png

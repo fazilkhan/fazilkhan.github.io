@@ -213,7 +213,7 @@ sub-font
 }
 
 img.social {
-    max-width: 20%;
+    max-width: 25%;
 }
 
 @media screen and (max-width: 400px) {
