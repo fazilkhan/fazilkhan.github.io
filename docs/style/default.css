@@ -258,6 +258,7 @@ img.social {
         font-size: 15px;
         margin-top: 12px;
         margin-bottom: 5px;
+        text-align: center;
     }
 
     .headline-name, h1 {
@@ -289,7 +290,7 @@ img.social {
     .credit  {
         font-family: 'Lato', sans-serif;
         font-size: 16px;
-        line-height: 0.75;
+        line-height: 1.5;
         margin-top: 2rem;
         font-weight: 400;
         text-transform: none;
@@ -301,15 +302,26 @@ img.social {
 
     p {
         font-size: 17px;
-        text-align: center;
+        text-align: left;
     }
 
 }
 
 @media screen and (max-width: 370px) {
 
-    .headline-name, h1 {
-        font-size: 77px;
+    .headline, h1 {
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 0.25rem;
+        margin-top: 1rem;
+        text-align: left;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 17px;
+        text-align: left;
     }
 
 }
@@ -317,7 +329,7 @@ img.social {
 @media screen and (max-width: 360px) {
 
     .headline-name, h1 {
-        font-size: 77px;
+        font-size: 70px;
     }
 
     .subhead, h3 {
@@ -326,11 +338,12 @@ img.social {
 
     p.actual_slug {
         font-size: 14px;
+        text-align: center;
     }
 
     p {
         font-size: 17px;
-        text-align: center;
+        text-align: left;
     }
 
 }
@@ -338,12 +351,12 @@ img.social {
 @media screen and (max-width: 356px) {
 
     .headline-name, h1 {
-        font-size: 75px;
+        font-size: 70px;
     }
 
     p {
         font-size: 16px;
-        text-align: center;
+        text-align: left;
     }
 
 }
@@ -352,7 +365,7 @@ img.social {
 
     p {
         font-size: 16px;
-        text-align: center;
+        text-align: left;
     }
 
 }
