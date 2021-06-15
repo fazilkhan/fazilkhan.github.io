@@ -40,7 +40,7 @@ pages:
     image: banner.jpeg
     subtext: Russia, India, Brazil and Turkey together accounted for 51% of COVID-19 cases and 66% of deaths with unknown sex worldwide
     title: India Is Still Short On Sex-Disaggregated COVID-19 Data
-    slug: https://fazilkhan.github.io/scrollytelling
+    slug: https://fazilkhan.github.io/scrollytelling/
   - type: gdoc
     image: story-christchurch-lanka.jpeg
     subtext: "Pakistan is the worst affected country in South Asia with 217 incidents of attack on religious institutions since 2000 which resulted in 1,566 fatalities"
