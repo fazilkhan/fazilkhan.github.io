@@ -71,3 +71,8 @@ pages:
     title: With Cash Flow Worth Crores, It’s No Longer an Aam Aadmi’s Election
     slug: With-Cash-Flow-Worth-Crores-It’s-No-Longer-an-Aam-Aadmis-Election
     url: https://docs.google.com/document/d/18IejVzI_HAa-Fe-IbAX68c_SCk8EibjS5GcSv0imBZY/edit?usp=sharing
+  - type: raw
+    image: desa.jpeg
+    subtext: First attempt at building a news app with Svelte 
+    title: Basic News App
+    slug: https://fazilkhan.github.io/newsapp
