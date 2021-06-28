@@ -1,0 +1,17 @@
+{
+    "fonts": [
+        {
+            "aifont": "SourceSansRoman-Bold",
+            "family": "Source Sans Roman",
+            "weight": "700",
+            "style": ""
+        },
+        {
+            "aifont": "SourceSansRoman-Light",
+            "family": "SourceSansRoman-Light",
+            "weight": "200",
+            "style": ""
+        }
+
+    ]
+}
