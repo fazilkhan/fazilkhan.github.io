@@ -1,17 +1,22 @@
 {
     "fonts": [
         {
+            "aifont": "Impact",
+            "family": "Impact",
+            "weight": "400",
+            "style": ""
+        },
+        {
             "aifont": "SourceSansRoman-Bold",
-            "family": "Source Sans Roman",
+            "family": "Lato",
             "weight": "700",
             "style": ""
         },
         {
             "aifont": "SourceSansRoman-Light",
-            "family": "SourceSansRoman-Light",
+            "family": "Lato",
             "weight": "200",
             "style": ""
         }
-
     ]
 }
