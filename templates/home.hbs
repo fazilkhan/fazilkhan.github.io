@@ -35,36 +35,40 @@
   <body class="light-theme">
     <div class="container homepage"><!-- start of the main container-->
         <div class="row justify-content-center"><!-- headline and intro -->
-            <div class="col-lg-10 ">
+            <div class="col-lg-10">
                 <h1 class="headline-name super-font">{{name}}</h1>
                 <div class="sub-font body-text">
                     <p>{{ bio }}</p>
                     <ul class='spread'>
                         {{#each links}}
-                          <li><a href="{{this.target}}" target="_blank"><img class="social" src="{{ this.socialimage }}"></a>
-                          </li>
+                          <li><a href="{{this.target}}" target="_blank"><img class="social" src="{{ this.socialimage }}"></a></li>
                         {{/each}}
                     </ul>
     
+                  <div class="row">
                     {{#each pages}}
-                      <div class='story'>
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-sm-5">
-                              <a href="{{ this.slug }}/">
-                                <img class='preview-image' src="{{this.image}}" alt="There is supposed to be an image here">
-                              </a>
+                            <div class="col-sm-4">
+                              <div class="card">
+                                <div class="card-img-top">
+                                  <a href="{{ this.slug }}/">
+                                    <img class='preview-image' src="{{this.image}}" alt="There is supposed to be an image here">
+                                  </a>
+                                <div class="card-body">
+                                  <h5 class="subhead super-font"><a href="{{ this.slug }}/" style="color: rgb(48, 48, 48)">{{ this.title }}</a></h5>
+                                  <p class="actual_slug">{{subtext}}</p>
+                                </div>
+                                </div>
+                              </div>
                             </div>
-                            <div class="col-sm-7">
+                            {{!-- <div class="col-sm-7">
                               <h3 class="subhead super-font"><a href="{{ this.slug }}/" style="color: rgb(48, 48, 48)">{{ this.title }}</a></h3>
                               <p class="actual_slug">{{subtext}}</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                            </div> --}}
+                          
                     
                     
                     {{/each}}
+                  </div>
                 </div>
             </div>
         </div>

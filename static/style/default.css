@@ -7,9 +7,11 @@ body {
 
 .fake-table > div, ul.spread {
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+    /* justify-content: space-between; */
+    align-items: left;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .story {
@@ -22,16 +24,17 @@ body {
 }
 
 ul.spread {
-    padding-left: 0;
-    text-align: center;
-    margin-bottom: 0;
+    padding: 0;
+    text-align: right;
+    margin: 0px 0px 0px -27px;
 }
 
-.fake-table > div > div, ul.spread li {
+/* .fake-table > div > div, ul.spread li {
     margin: 15px;
     flex-grow: 1;
     flex-basis: 0;
-}
+} */
+
 
 /* choose a light or dark theme to add to the body tag. */
 .dark-theme {
@@ -51,10 +54,12 @@ ul.spread {
 
 img {
     max-width: 100%;
+    border-radius: 5px 5px 0 0;
+
 }
 
 .container {
-        max-width: 975px;
+        max-width: 1140px;
 }
 
 .col-sm-5 {
@@ -64,6 +69,27 @@ img {
     padding-right: 15px;
     padding-left: 0px;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    min-height: 350px;
+    max-height: 350px;
+    margin-bottom: 60px;
+  }
+
+.card:hover {
+    transform: scale(1.05);
+    /* box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2); */
+  }
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+
 
 
 
@@ -93,6 +119,11 @@ sub-font
 
 .sub-font, p, ul, li {
     font-family: 'Lato', sans-serif;
+}
+
+li {
+    max-width: 10%;
+    margin: 0px 0px 15px -35px;
 }
 
 .headline-name, h1 {
@@ -156,7 +187,7 @@ sub-font
 
 .subhead, h3 {
     font-family: 'Encode Sans Semi Expanded', sans-serif;
-    font-size: 22px;
+    font-size: 17px;
     line-height: 1.3;
     margin-bottom: 0.5rem;
     margin-top: -5px;
@@ -207,13 +238,14 @@ sub-font
     height:200px;
 }
 
+
 .actual_slug {
-    font-size: 15px;
-    margin-top: 12px;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 img.social {
-    max-width: 25%;
+    max-width: 35%;
 }
 
 @media screen and (max-width: 400px) {
