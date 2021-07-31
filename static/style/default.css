@@ -341,17 +341,8 @@ img.social {
     .preview-image {
         width:375px;
         height:250px;
-        /* filter: grayscale(100%);
-        -webkit-filter: grayscale(100%); */
-    }
-
-    /* .preview-image:hover {
-        width:375px;
-        height:250px;
         filter: none;
-        -webkit-filter: grayscale(0);
-    } */
-
+    }
 
 
     .col-sm-5 {
