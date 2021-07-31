@@ -335,6 +335,7 @@ img.social {
       }
     .social-icons ul li a {
         font-size: 1.2em;
+        margin: 0 5px;
       }
 
     .preview-image {
