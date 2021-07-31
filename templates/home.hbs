@@ -12,9 +12,10 @@
     
     <!-- google fonts: Roboto Condensed(super-font) and Lora(sub-font) -->
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
-  
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mina&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6a62d684d0.js" crossorigin="anonymous"></script>
+
     <title>{{name}} projects page</title>
   </head>
     
@@ -38,13 +39,24 @@
             <div class="col-lg-10">
                 <h1 class="headline-name super-font">{{name}}</h1>
                 <div class="sub-font body-text">
-                    <p>{{ bio }}</p>
-                    <ul class='spread'>
-                        {{#each links}}
-                          <li><a href="{{this.target}}" target="_blank"><img class="social" src="{{ this.socialimage }}"></a></li>
-                        {{/each}}
-                    </ul>
-    
+                  <div id="bio">
+                    <p>Data journalist currently based in New York. M.S. Data Journalism '21 at Columbia Journalism School. Former correspondent at <strong><a href="https://www.news18.com/" title="News18" target="_blank">News18.com</a></strong>. Reports on politics, economy, health, agriculture, and crime. Bylines in <strong><a href="https://thewire.in/" title="TheWire" target="_blank">TheWire</a></strong> and <strong><a href="https://www.business-standard.com/" title="BusinessStandard" target="_blank">Business Standard</a></strong>.</p>
+                  </div>
+                  {{!-- <div class="container">
+                    <div class="row"> --}}
+                      {{!-- <div class="span10 offset1"> --}}
+                        <div class="social-icons">
+                          <ul>
+                            <li><a href="https://github.com/fazilkhan" title="github" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://twitter.com/fazilk_" title="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/fazilkhan444/" title="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="mailto:fk2402@columbia.edu" title="email" target="_blank"><i class="fas fa-envelope"></i></a></li>
+                            <li><a href="https://t.me/fazilkhan444" title="telegram" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                          </ul>
+                        </div>
+                      {{!-- </div> --}}
+                    {{!-- </div>
+                  </div> --}}
                   <div class="row">
                     {{#each pages}}
                             <div class="col-sm-4">
@@ -55,7 +67,7 @@
                                   </a>
                                 <div class="card-body">
                                   <h5 class="subhead super-font"><a href="{{ this.slug }}/" style="color: rgb(48, 48, 48)">{{ this.title }}</a></h5>
-                                  <p class="actual_slug">{{subtext}}</p>
+                                  <p class="actual_slug"><a href="{{ this.slug }}/" style="color: rgb(48, 48, 48)">{{ this.subtext }}</a></p>
                                 </div>
                                 </div>
                               </div>

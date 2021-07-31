@@ -5,15 +5,6 @@ body {
     margin: auto;
 }
 
-.fake-table > div, ul.spread {
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: left;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 .story {
     color: #000;
     font-family: Calibri;
@@ -23,17 +14,56 @@ body {
     margin-top: 10px;
 }
 
-ul.spread {
-    padding: 0;
-    text-align: right;
-    margin: 0px 0px 0px -27px;
+.universal-inline-block {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.social-icons {
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #448aaf;
 }
 
-/* .fake-table > div > div, ul.spread li {
-    margin: 15px;
-    flex-grow: 1;
-    flex-basis: 0;
-} */
+.social-icons ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social-icons ul li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  margin: 0 15px 15px;
+  vertical-align: middle;
+  
+}
+.social-icons ul li a {
+  display: block;
+  font-size: 1.2em;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.social-icons ul li a i {
+  color: #448aaf;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.social-icons ul li a:hover i {
+  color: #275066;
+}
+.social-icons ul li a:focus i,
+.social-icons ul li a:active i {
+  transition: none;
+  color: #275066;
+}
+
 
 
 /* choose a light or dark theme to add to the body tag. */
@@ -61,6 +91,7 @@ img {
 .container {
         max-width: 1140px;
 }
+
 
 .col-sm-5 {
     position: relative;
@@ -114,7 +145,7 @@ sub-font
 
 
 .super-font, h1, .label + p {
-    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Lato', sans-serif;
 }
 
 .sub-font, p, ul, li {
@@ -127,16 +158,16 @@ li {
 }
 
 .headline-name, h1 {
-    font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: 70px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 60px;
     line-height: 0.9;
-    margin-bottom: -15px;
+    margin-bottom: -10px;
     margin-top: 0px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .headline, h1 {
-    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 45px;
     line-height: 1.1;
     margin-bottom: 0.25rem;
@@ -186,7 +217,7 @@ li {
 }
 
 .subhead, h3 {
-    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 17px;
     line-height: 1.3;
     margin-bottom: 0.5rem;
@@ -236,8 +267,16 @@ li {
 .preview-image {
     width:300px;
     height:200px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
 
+.preview-image:hover {
+    width:300px;
+    height:200px;
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
 
 .actual_slug {
     font-size: 14px;
@@ -248,10 +287,30 @@ img.social {
     max-width: 35%;
 }
 
+#bio p {
+    font-family: 'Mina', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+#bio a {
+    color: #097B9E;
+}
+
+
 @media screen and (max-width: 400px) {
 
     .container {
         max-width: 375px;
+    }
+
+    .card-body {
+        margin-top: 5px;
+    }
+
+    .card {
+        margin-bottom: 30px;
     }
 
     .story {
@@ -264,10 +323,35 @@ img.social {
         text-align: center;
     }
 
+    .social-icons {
+        text-align: left;
+
+    }
+
+    .social-icons ul li {
+        margin: 0 12px 12px;
+        vertical-align: middle;
+        
+      }
+    .social-icons ul li a {
+        font-size: 1.2em;
+      }
+
     .preview-image {
         width:375px;
         height:250px;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
     }
+
+    .preview-image:hover {
+        width:375px;
+        height:250px;
+        filter: none;
+        -webkit-filter: grayscale(0);
+    }
+
+
 
     .col-sm-5 {
         position: relative;
@@ -286,31 +370,30 @@ img.social {
         padding-left: 0px;
     }
 
-    p.actual_slug {
-        font-size: 15px;
-        margin-top: 12px;
-        margin-bottom: 5px;
-        text-align: center;
+    .actual_slug {
+        display:none;
     }
 
     .headline-name, h1 {
-        font-family: 'Oleo Script Swash Caps', cursive;
-        font-size: 80px;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 60px;
         line-height: 0.9;
-        margin-bottom: -15px;
+        margin-bottom: -5px;
         margin-top: 0px;
-        font-weight: 500;
+        font-weight: 700;
         text-align: center;
+        margin-left: -2px;
     }
 
     .subhead, h3 {
         font-size: 20px;
-        line-height: 1.3;
+        text-align: center;
+        line-height: 1.5;
         font-weight: 700;
     }
 
     .headline, h1 {
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
+        font-family: 'Lato', sans-serif;
         font-size: 30px;
         line-height: 1.2;
         margin-bottom: 0.25rem;
@@ -332,72 +415,15 @@ img.social {
         max-width: 60%;
     }
 
-    p {
+    #bio p {
+        font-family: 'Mina', sans-serif;
         font-size: 17px;
-        text-align: left;
-    }
-
-}
-
-@media screen and (max-width: 370px) {
-
-    .headline, h1 {
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-size: 30px;
-        line-height: 1.2;
-        margin-bottom: 0.25rem;
-        margin-top: 1rem;
-        text-align: left;
-        font-weight: 500;
-    }
-
-    p {
-        font-size: 17px;
-        text-align: left;
-    }
-
-}
-
-@media screen and (max-width: 360px) {
-
-    .headline-name, h1 {
-        font-size: 70px;
-    }
-
-    .subhead, h3 {
-        font-size: 19px;
-    }
-
-    p.actual_slug {
-        font-size: 14px;
         text-align: center;
+        margin-bottom: 30px;
     }
 
-    p {
-        font-size: 17px;
-        text-align: left;
-    }
-
-}
-
-@media screen and (max-width: 356px) {
-
-    .headline-name, h1 {
-        font-size: 70px;
-    }
-
-    p {
-        font-size: 16px;
-        text-align: left;
-    }
-
-}
-
-@media screen and (max-width: 350px) {
-
-    p {
-        font-size: 16px;
-        text-align: left;
+    #bio a {
+        color: #097B9E;
     }
 
 }

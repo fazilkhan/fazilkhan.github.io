@@ -1,21 +1,4 @@
 name: Fazil Khan
-bio: Data journalist currently based in New York.
-links:
-  - target: mailto:fk2402@columbia.edu
-    socialimage: email.png
-    tooltip: Email
-  - target: https://www.linkedin.com/in/fazilkhan444/
-    socialimage: linkedin.png
-    tooltip: Linkedin
-  - target: https://infogram.com/fazil-khan-latest-resume-1hzj4o08mlyd4pw
-    socialimage: resume.png
-    tooltip: Linkedin    
-  - target: https://twitter.com/fazilk_
-    socialimage: twitter.png
-    tooltip: Twitter
-  - target: https://t.me/fazilkhan444
-    socialimage: telegram.png
-    tooltip: Telegram
 pages:
   - type: gdoc
     image: story_1_img.jpeg
