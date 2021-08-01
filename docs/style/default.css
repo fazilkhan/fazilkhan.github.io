@@ -36,7 +36,7 @@ body {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  margin: 0 15px 15px;
+  margin: 0 15px 35px;
   vertical-align: middle;
   
 }
@@ -61,7 +61,7 @@ body {
 .social-icons ul li a:focus i,
 .social-icons ul li a:active i {
   transition: none;
-  color: #275066;
+  color: #448aaf;
 }
 
 
@@ -159,11 +159,11 @@ li {
 
 .headline-name, h1 {
     font-family: 'Exo 2', sans-serif;
-    font-size: 60px;
+    font-size: 70px;
     line-height: 0.9;
     margin-bottom: -10px;
     margin-top: 0px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .headline, h1 {
@@ -267,15 +267,15 @@ li {
 .preview-image {
     width:300px;
     height:200px;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    /* filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); */
 }
 
 .preview-image:hover {
     width:300px;
     height:200px;
-    filter: none;
-    -webkit-filter: grayscale(0);
+    /* filter: none;
+    -webkit-filter: grayscale(0); */
 }
 
 .actual_slug {
@@ -288,15 +288,17 @@ img.social {
 }
 
 #bio p {
-    font-family: 'Mina', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     text-align: left;
     margin-bottom: 40px;
 }
 
 #bio a {
-    color: #097B9E;
+    color: #448aaf;
 }
+
+
 
 
 @media screen and (max-width: 400px) {
@@ -329,7 +331,7 @@ img.social {
     }
 
     .social-icons ul li {
-        margin: 0px 12px 10px 14px;
+        margin: 0px 12px 25px 13px;
         vertical-align: middle;
         
       }
@@ -408,14 +410,14 @@ img.social {
     }
 
     #bio p {
-        font-family: 'Mina', sans-serif;
+        font-family: 'Lato', sans-serif;
         font-size: 17px;
         text-align: center;
         margin-bottom: 30px;
     }
 
     #bio a {
-        color: #097B9E;
+        color: #448aaf;
     }
 
 }
