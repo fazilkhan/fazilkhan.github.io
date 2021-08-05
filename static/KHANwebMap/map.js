@@ -72,7 +72,7 @@ mapboxgl.accessToken = "pk.eyJ1IjoiZmF6aWxraGFuIiwiYSI6ImNrcm00Y2lwYzc0MWsydnF1d
             },
             // minzoom: 8.5,
             paint: {
-              "line-color": "grey",
+              "line-color": "white",
               "line-width": 0.5,
             },
           },
