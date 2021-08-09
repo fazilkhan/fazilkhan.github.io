@@ -60,32 +60,32 @@ pages:
     image: bhojpuri.webp
     subtext: Political Parties Are Banking on Bhojpuri Tunes to Woo Purvanchali Voters Who Can Make or Break the Govt. in Delhi
     title: Bhojpuri is Making Voters Dance in Delhi Election
-    slug: https://www.news18.com/news/immersive/bhojpuri-campaign-songs-delhi-Immersive.html
+    slug: https://tinyurl.com/2uxpwfna
   - type: raw
     image: pocsoimmersive.gif
     subtext: Thousands of child sexual abuse cases are stuck in Indian courts because of inadequate infrastructure and complex legal procedures
     title: The POCSO Trial By Fire
-    slug: https://www.news18.com/news/immersive/slow-pocso-trials.html
+    slug: https://tinyurl.com/f3bfu7yz
   - type: raw
     image: kashmir.jpeg
     subtext: What does it mean to not be able to hear from your loved ones for weeks in times of distress?
-    title: Kashmir Scrambles for Signals 30 Days After Abrogation of Art. 370
-    slug: https://www.news18.com/news/immersive/kashmir-communication-blackout.html
+    title: Kashmir Scrambles for Signals After Abrogation of Article 370
+    slug: https://tinyurl.com/2dh7d575
   - type: raw
     image: dengue.gif
     subtext: Climate change brings new, deadly vocabulary to the Indian state of Odisha. A four-part series on climate change and vector-borne diseases in the state
     title: D for Dengue, M for Malaria
-    slug: https://www.news18.com/news/immersive/climate-change-and-vector-borne-diseases-in-odisha.html
+    slug: https://tinyurl.com/ec9s4sdy
   - type: raw
     image: passportToKill.gif
     subtext: The anxiety over National Register of Citizens is pushing people over the brink in India's Assam
     title: Passport to Kill
-    slug: https://www.news18.com/news/immersive/climate-change-and-vector-borne-diseases-in-odisha.html
+    slug: https://tinyurl.com/543t9tkr
   - type: raw
     image: gandhiModiRally.jpg
     subtext: Tracking the constituencies the two leaders visited during their 2019 general election campaign
     title: On The Campaign Trail of Rahul Gandhi & Narendra Modi
-    slug: https://www.news18.com/news/immersive/tracking-modi-and-rahul-campaign.html
+    slug: https://tinyurl.com/ypr3krs7
   - type: raw
     badges: Svelte
     image: desa.jpeg
