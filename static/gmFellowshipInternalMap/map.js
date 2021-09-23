@@ -7,14 +7,6 @@ mapboxgl.accessToken = "pk.eyJ1IjoiZmF6aWxraGFuIiwiYSI6ImNrcm00Y2lwYzc0MWsydnF1d
         zoom: 9.5,
         center: [-74, 40.71]
     });
-    
-const addressIDs = []; // This array will contain a list used to filter against.
-const filterInput = document.getElementById('filter-input');
-
-// for (const feature of places.features) {
-//   const symbol = feature.properties.icon;
-//   const layerID = `poi-${symbol}`;
-// }
 
     map.on("load", function () {
         map.addLayer(
@@ -131,10 +123,10 @@ const filterInput = document.getElementById('filter-input');
   /// Adding popups on hover to addresses.
     
     // Create a popup, but don't add it to the map yet.
-  const popup = new mapboxgl.Popup({
-     closeButton: false,
-     closeOnClick: false
-  });
+    const popup = new mapboxgl.Popup({
+        closeButton: false,
+        closeOnClick: false
+    });
 
     map.on('mouseenter', 'addresses', function (e) {
         map.getCanvas().style.cursor = 'pointer';
@@ -157,7 +149,8 @@ const filterInput = document.getElementById('filter-input');
             + '<p><strong>Died on:</strong> '+ diedOn +'</p>'
             + '<p><strong>Gender:</strong> '+ gender +'</p>')
             .addTo(map);
-    });
+      });
+
     map.on('mouseleave', 'addresses', function () {
         map.getCanvas().style.cursor = '';
         popup.remove();
@@ -168,13 +161,13 @@ const filterInput = document.getElementById('filter-input');
     // For adding stroke on hover to ZIP code boundaries.
 
     map.on("mousemove", "dataByZip", function(e) {
-      map.getCanvas().style.cursor = 'pointer';
-      map.setFilter("dataByZip_hoverOutline", ["==", "MODIFIED_ZCTA", e.features[0].properties.MODIFIED_ZCTA]);
+        map.getCanvas().style.cursor = 'pointer';
+        map.setFilter("dataByZip_hoverOutline", ["==", "MODIFIED_ZCTA", e.features[0].properties.MODIFIED_ZCTA]);
     });
 
     map.on("mouseleave", "dataByZip", function() {
-    map.getCanvas().style.cursor = '';
-    map.setFilter("dataByZip_hoverOutline", ["==", "MODIFIED_ZCTA", ""]);
+        map.getCanvas().style.cursor = '';
+        map.setFilter("dataByZip_hoverOutline", ["==", "MODIFIED_ZCTA", ""]);
     });
 
     /////
@@ -182,86 +175,86 @@ const filterInput = document.getElementById('filter-input');
     /// Adding click popups for Zip (info).
 
     map.on('click', 'dataByZip', function (e) {
-      var zip = e.features[0].properties.MODIFIED_ZCTA;
-      var neighborhood = e.features[0].properties.NEIGHBORHOOD_NAME;
-      var confirmedCases = e.features[0].properties.COVID_CONFIRMED_CASE_COUNT;
-      var confirmedDeaths = e.features[0].properties.COVID_CONFIRMED_DEATH_COUNT;
-      var confirmedDeathRate = e.features[0].properties.COVID_CONFIRMED_DEATH_RATE;
+        var zip = e.features[0].properties.MODIFIED_ZCTA;
+        var neighborhood = e.features[0].properties.NEIGHBORHOOD_NAME;
+        var confirmedCases = e.features[0].properties.COVID_CONFIRMED_CASE_COUNT;
+        var confirmedDeaths = e.features[0].properties.COVID_CONFIRMED_DEATH_COUNT;
+        var confirmedDeathRate = e.features[0].properties.COVID_CONFIRMED_DEATH_RATE;
       // stateName = stateName.toUpperCase();
-      new mapboxgl.Popup()
-          .setLngLat(e.lngLat)
-          .setHTML('<h2>'+zip+'</h2>'
-              +'<h4>'+neighborhood+'</h4>'
-              + '<p><strong>Canfirmed cases:</strong> '+ confirmedCases +'</p>'
-              + '<p><strong>Confirmed deaths:</strong> '+ confirmedDeaths +'</p>'
-              + '<p><strong>Death rate:</strong> '+ confirmedDeathRate +'</p>'
-              + '<p><i>' + "(As of Sept. 22)" + '</i></p>')
-          .addTo(map);
-  });
+    new mapboxgl.Popup()
+        .setLngLat(e.lngLat)
+        .setHTML('<h2>'+zip+'</h2>'
+            +'<h4>'+neighborhood+'</h4>'
+            + '<p><strong>Canfirmed cases:</strong> '+ confirmedCases +'</p>'
+            + '<p><strong>Confirmed deaths:</strong> '+ confirmedDeaths +'</p>'
+            + '<p><strong>Death rate:</strong> '+ confirmedDeathRate +'</p>'
+            + '<p><i>' + "(As of Sept. 22)" + '</i></p>')
+        .addTo(map);
+    });
 
-  map.on('mouseenter', 'dataByZip', function () {
-    map.getCanvas().style.cursor = 'pointer';
-  });
+    map.on('mouseenter', 'dataByZip', function () {
+        map.getCanvas().style.cursor = 'pointer';
+    });
 
-  map.on('mouseleave', 'dataByZip', function () {
-    map.getCanvas().style.cursor = '';
-  });
+    map.on('mouseleave', 'dataByZip', function () {
+        map.getCanvas().style.cursor = '';
+    });
 
   //////
 
 ////Adding filter buttons.
 
     // After the last frame rendered before the map enters an "idle" state.
-map.on('idle', () => {
+    map.on('idle', () => {
   // If these two layers were not added to the map, abort
-  if (!map.getLayer('addresses') || !map.getLayer('boroughCases') || !map.getLayer('dataByZip')) {
-  return;
-  }
+        if (!map.getLayer('addresses') || !map.getLayer('boroughCases') || !map.getLayer('dataByZip')) {
+            return;
+    }
    
   // Enumerate ids of the layers.
-  const toggleableLayerIds = ['addresses', 'boroughCases', 'dataByZip'];
+        const toggleableLayerIds = ['addresses', 'boroughCases', 'dataByZip'];
    
   // Set up the corresponding toggle button for each layer.
-  for (const id of toggleableLayerIds) {
+        for (const id of toggleableLayerIds) {
   // Skip layers that already have a button set up.
-  if (document.getElementById(id)) {
-  continue;
-  }
+            if (document.getElementById(id)) {
+                continue;
+            }
    
   // Create a link.
-  const link = document.createElement('a');
-  link.id = id;
-  link.href = '#';
-  link.textContent = id;
-  link.className = 'active';
+            const link = document.createElement('a');
+            link.id = id;
+            link.href = '#';
+            link.textContent = id;
+            link.className = 'active';
    
   // Show or hide layer when the toggle is clicked.
-  link.onclick = function (e) {
-  const clickedLayer = this.textContent;
-  e.preventDefault();
-  e.stopPropagation();
+            link.onclick = function (e) {
+            const clickedLayer = this.textContent;
+            e.preventDefault();
+            e.stopPropagation();
    
-  const visibility = map.getLayoutProperty(
-  clickedLayer,
-  'visibility'
-  );
+            const visibility = map.getLayoutProperty(
+                clickedLayer,
+                'visibility'
+            );
    
   // Toggle layer visibility by changing the layout object's visibility property.
-  if (visibility === 'visible') {
-  map.setLayoutProperty(clickedLayer, 'visibility', 'none');
-  this.className = '';
-  } else {
-  this.className = 'active';
-  map.setLayoutProperty(
-  clickedLayer,
-  'visibility',
-  'visible'
-  );
-  }
-  };
+            if (visibility === 'visible') {
+                map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+                this.className = '';
+            } else {
+                  this.className = 'active';
+                  map.setLayoutProperty(
+                  clickedLayer,
+                  'visibility',
+                  'visible'
+                  );
+              }
+            };
    
-  const layers = document.getElementById('menu');
-  layers.appendChild(link);
-  }
-  });
+            const layers = document.getElementById('menu');
+            layers.appendChild(link);
+          }
+    });
   
