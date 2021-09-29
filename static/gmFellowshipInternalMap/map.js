@@ -60,11 +60,11 @@ mapboxgl.accessToken = "pk.eyJ1IjoiZmF6aWxraGFuIiwiYSI6ImNrcm00Y2lwYzc0MWsydnF1d
 
         map.addLayer(
           {
-            id: "dataByZip",
+            id: "casesPerThousand",
             type: "fill",
             source: {
               type: "geojson",
-              data: "data/dataByZIP.geojson",
+              data: "data/covidAndForeignBorn.geojson",
             },
             paint: {
               "fill-opacity": 0.7,
@@ -72,10 +72,10 @@ mapboxgl.accessToken = "pk.eyJ1IjoiZmF6aWxraGFuIiwiYSI6ImNrcm00Y2lwYzc0MWsydnF1d
               'fill-color': [
                 'interpolate',
                 ['linear'],
-                ['get', 'COVID_CONFIRMED_CASE_COUNT'],
+                ['get', 'Case_RatePer1K'],
                 0,
                 '#ffffb2',
-                13000,
+                220,
                 '#f03b20',
                 ]
             },
@@ -85,18 +85,61 @@ mapboxgl.accessToken = "pk.eyJ1IjoiZmF6aWxraGFuIiwiYSI6ImNrcm00Y2lwYzc0MWsydnF1d
 
         map.addLayer(
           {
-            id: "dataByZip_hoverOutline",
+            id: "casesPerThousand_hoverOutline",
             type: "line",
             source: {
               type: "geojson",
-              data: "data/dataByZIP.geojson",
+              data: "data/covidAndForeignBorn.geojson",
             },
             paint: {
               "line-opacity": 1,
               'line-color': '#000000',
               'line-width': 2, 
             },
-            "filter": ["==", "MODIFIED_ZCTA", ""]
+            "filter": ["==", "MOD_ZCTA", ""]
+          },
+          "addresses"
+        );
+      
+        map.addLayer(
+          {
+            id: "foreignBornPop",
+            type: "fill",
+            source: {
+              type: "geojson",
+              data: "data/covidAndForeignBorn.geojson",
+            },
+            paint: {
+              "fill-opacity": 0.7,
+              'fill-outline-color': '#ffffff',
+              'fill-color': [
+                'interpolate',
+                ['linear'],
+                ['get', 'foreignBornPerc'],
+                0,
+                '#ffffb2',
+                80,
+                '#f03b20',
+                ]
+            },
+          },
+          "addresses"
+        );
+
+        map.addLayer(
+          {
+            id: "foreignBornPop_hoverOutline",
+            type: "line",
+            source: {
+              type: "geojson",
+              data: "data/covidAndForeignBorn.geojson",
+            },
+            paint: {
+              "line-opacity": 1,
+              'line-color': '#000000',
+              'line-width': 2, 
+            },
+            "filter": ["==", "MOD_ZCTA", ""]
           },
           "addresses"
         );
@@ -160,26 +203,27 @@ mapboxgl.accessToken = "pk.eyJ1IjoiZmF6aWxraGFuIiwiYSI6ImNrcm00Y2lwYzc0MWsydnF1d
 
     // For adding stroke on hover to ZIP code boundaries.
 
-    map.on("mousemove", "dataByZip", function(e) {
+    map.on("mousemove", "casesPerThousand", "foreignBornPop", function(e) {
         map.getCanvas().style.cursor = 'pointer';
-        map.setFilter("dataByZip_hoverOutline", ["==", "MODIFIED_ZCTA", e.features[0].properties.MODIFIED_ZCTA]);
+        map.setFilter("casesPerThousand_hoverOutline", "foreignBornPop_hoverOutline", ["==", "MOD_ZCTA", e.features[0].properties.MOD_ZCTA]);
     });
 
-    map.on("mouseleave", "dataByZip", function() {
+    map.on("mouseleave", "casesPerThousand", "foreignBornPop", function() {
         map.getCanvas().style.cursor = '';
-        map.setFilter("dataByZip_hoverOutline", ["==", "MODIFIED_ZCTA", ""]);
+        map.setFilter("casesPerThousand_hoverOutline", "foreignBornPop_hoverOutline", ["==", "MOD_ZCTA", ""]);
     });
 
     /////
 
     /// Adding click popups for Zip (info).
 
-    map.on('click', 'dataByZip', function (e) {
-        var zip = e.features[0].properties.MODIFIED_ZCTA;
-        var neighborhood = e.features[0].properties.NEIGHBORHOOD_NAME;
-        var confirmedCases = e.features[0].properties.COVID_CONFIRMED_CASE_COUNT;
-        var confirmedDeaths = e.features[0].properties.COVID_CONFIRMED_DEATH_COUNT;
-        var confirmedDeathRate = e.features[0].properties.COVID_CONFIRMED_DEATH_RATE;
+    map.on('click', 'casesPerThousand', function (e) {
+        var zip = e.features[0].properties.MOD_ZCTA;
+        var neighborhood = e.features[0].properties.Neighborhood;
+        var confirmedCases = e.features[0].properties.COVID_Case_Count;
+        var confirmedDeaths = e.features[0].properties.COVID_Death_Count;
+        var confirmedDeathRate = e.features[0].properties.Death_RatePer1K;
+        var caseFatality = e.features[0].properties.Case_Fatality_Rate;
       // stateName = stateName.toUpperCase();
     new mapboxgl.Popup()
         .setLngLat(e.lngLat)
@@ -187,16 +231,17 @@ mapboxgl.accessToken = "pk.eyJ1IjoiZmF6aWxraGFuIiwiYSI6ImNrcm00Y2lwYzc0MWsydnF1d
             +'<h4>'+neighborhood+'</h4>'
             + '<p><strong>Canfirmed cases:</strong> '+ confirmedCases +'</p>'
             + '<p><strong>Confirmed deaths:</strong> '+ confirmedDeaths +'</p>'
-            + '<p><strong>Death rate:</strong> '+ confirmedDeathRate +'</p>'
-            + '<p><i>' + "(As of Sept. 22)" + '</i></p>')
+            + '<p><strong>Death rate per 1K:</strong> '+ confirmedDeathRate +'</p>'
+            + '<p><strong>Case fatality %:</strong> '+ caseFatality +'</p>'
+            + '<p><i>' + "(As of Sept. 27)" + '</i></p>')
         .addTo(map);
     });
 
-    map.on('mouseenter', 'dataByZip', function () {
+    map.on('mouseenter', 'casesPerThousand', function () {
         map.getCanvas().style.cursor = 'pointer';
     });
 
-    map.on('mouseleave', 'dataByZip', function () {
+    map.on('mouseleave', 'casesPerThousand', function () {
         map.getCanvas().style.cursor = '';
     });
 
@@ -207,12 +252,12 @@ mapboxgl.accessToken = "pk.eyJ1IjoiZmF6aWxraGFuIiwiYSI6ImNrcm00Y2lwYzc0MWsydnF1d
     // After the last frame rendered before the map enters an "idle" state.
     map.on('idle', () => {
   // If these two layers were not added to the map, abort
-        if (!map.getLayer('addresses') || !map.getLayer('boroughCases') || !map.getLayer('dataByZip')) {
+        if (!map.getLayer('addresses') || !map.getLayer('boroughCases') || !map.getLayer('casesPerThousand') || !map.getLayer('foreignBornPop')) {
             return;
     }
    
   // Enumerate ids of the layers.
-        const toggleableLayerIds = ['addresses', 'boroughCases', 'dataByZip'];
+        const toggleableLayerIds = ['addresses', 'boroughCases', 'casesPerThousand', 'foreignBornPop'];
    
   // Set up the corresponding toggle button for each layer.
         for (const id of toggleableLayerIds) {
