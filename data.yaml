@@ -13,6 +13,11 @@ pages:
     title: 'A Decline in Traffic Congestion Across Major Cities'
     slug: A Dip in Traffic Congestion Across Major Cities
     url: https://docs.google.com/document/d/1R-ynPVXRZLFtqOFmI6H8S9OtjgPaRpl-U5n5jbbSEaE/edit?usp=sharing
+  - type: raw
+    image: puertoRico.png
+    subtext: Climate and economic migration leaves thousands of houses abandoned in Puerto Rico
+    title: Empty and Decaying
+    slug: https://www.khanfazil.com/puertoRicoVacantHouses/
   - type: gdoc
     image: story-christchurch-lanka.jpeg
     subtext: "Pakistan is the worst-affected nation in South Aisa where 1,566 people have been killed in such attacks"
