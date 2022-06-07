@@ -1,5 +1,9 @@
 name: Fazil Khan
 pages:
+  - type: raw
+    image: shyvonne.webp
+    title: "1 in Every 200 NYC Children Have Lost a Parent or Caregiver to COVID. That’s Almost Twice the National Rate"
+    slug: https://www.thecity.nyc/2022/4/20/23033998/1-in-every-200-children-nyc-lost-parent-covid-twice-national-rate
   - type: gdoc
     image: story_1_img.jpeg
     subtext: "The COVID-19 crisis has had a scarcely remarked class of victims in thousands of small-scale urban landlords"
