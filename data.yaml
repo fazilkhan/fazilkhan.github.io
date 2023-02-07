@@ -1,6 +1,15 @@
 name: Fazil Khan
 pages:
   - type: raw
+    image: fletcherFamily.webp
+    title: "The Pandemic Robbed Thousands of NYC Children of Parents. Many Aren’t Getting the Help They Need"
+    slug: https://www.thecity.nyc/2023/1/26/23571588/thousands-nyc-children-whose-parent-died-from-covid-need-help
+  - type: raw
+    image: Truancy-Suspensions02.webp
+    subtext: "Experts say disparities warrant more investigation"
+    title: "Civil rights at stake: Black, Hispanic students blocked from class for missing class"
+    slug: https://hechingerreport.org/black-and-latino-students-get-suspended-more-for-missing-school-is-it-a-civil-rights-violation/
+  - type: raw
     image: shyvonne.webp
     title: "1 in Every 200 NYC Children Have Lost a Parent or Caregiver to COVID. That’s Almost Twice the National Rate"
     slug: https://www.thecity.nyc/2022/4/20/23033998/1-in-every-200-children-nyc-lost-parent-covid-twice-national-rate
