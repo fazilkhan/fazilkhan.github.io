@@ -1,8 +1,12 @@
 name: Fazil Khan
 pages:
   - type: raw
+    image: marcus-poorer-01FEAT.webp
+    title: "Why are prices rising more for lower-income college students than their higher-income peers?"
+    slug: https://hechingerreport.org/colleges-are-raising-prices-faster-on-their-lower-income-than-their-higher-income-students/
+  - type: raw
     image: fletcherFamily.webp
-    title: "The Pandemic Robbed Thousands of NYC Children of Parents. Many Aren’t Getting the Help They Need"
+    title: "The pandemic robbed thousands of NYC children of parents. Many aren’t getting the help they need"
     slug: https://www.thecity.nyc/2023/1/26/23571588/thousands-nyc-children-whose-parent-died-from-covid-need-help
   - type: raw
     image: Truancy-Suspensions02.webp
@@ -11,98 +15,98 @@ pages:
     slug: https://hechingerreport.org/black-and-latino-students-get-suspended-more-for-missing-school-is-it-a-civil-rights-violation/
   - type: raw
     image: shyvonne.webp
-    title: "1 in Every 200 NYC Children Have Lost a Parent or Caregiver to COVID. That’s Almost Twice the National Rate"
+    title: "1 in every 200 NYC children have lost a parent or caregiver to COVID. That’s almost twice the national rate"
     slug: https://www.thecity.nyc/2022/4/20/23033998/1-in-every-200-children-nyc-lost-parent-covid-twice-national-rate
   - type: gdoc
     image: story_1_img.jpeg
     subtext: "The COVID-19 crisis has had a scarcely remarked class of victims in thousands of small-scale urban landlords"
-    title: 'How the Migrant Exodus in India Affected Small Landlords'
+    title: 'How the migrant exodus in India affected small landlords'
     slug: How the Lockdown and Migrant Exodus Affected Small-Landlords in India
     url: https://docs.google.com/document/d/1RwxJfUPT7e8vevoLdpB_sj0NF619Y400n0E7pl4ttZc/edit?usp=sharing
   - type: gdoc
     badges: Python, Datawrapper
     image: story_2_img.gif
     subtext: "Bengaluru in India saw the sharpest decline in traffic congestion in 2020 followed by Manila in the Philippines"
-    title: 'A Decline in Traffic Congestion Across Major Cities'
+    title: 'A decline in traffic congestion across major cities'
     slug: A Dip in Traffic Congestion Across Major Cities
     url: https://docs.google.com/document/d/1R-ynPVXRZLFtqOFmI6H8S9OtjgPaRpl-U5n5jbbSEaE/edit?usp=sharing
   - type: raw
     image: puertoRico.png
     subtext: Climate and economic migration leaves thousands of houses abandoned in Puerto Rico
-    title: Empty and Decaying
+    title: Empty and decaying
     slug: https://www.khanfazil.com/puertoRicoVacantHouses/
   - type: gdoc
     image: story-christchurch-lanka.jpeg
     subtext: "Pakistan is the worst-affected nation in South Aisa where 1,566 people have been killed in such attacks"
-    title: 'Terror Attacks on Places of Worship Show Alarming Rise'
+    title: 'Terror attacks on places of worship show alarming rise'
     slug: From Christchurch to Sri Lanka, Terror Attacks on Places of Worship Show Alarming Rise
     url: https://docs.google.com/document/d/1c2q7okPKJhvn7fF0AHZ_JEaQtLIcRceEBDlTaDor6yE/edit?usp=sharing
   - type: raw
     badges: Python, Datawrapper
     image: banner.jpeg
     subtext: Russia, India, Brazil and Turkey together accounted for 66% COVID-19 deaths with unknown sex globally
-    title: Lack of Sex Disaggregated COVID-19 Data India
+    title: Lack of sex disaggregated COVID-19 data in India
     slug: https://fazilkhan.github.io/scrollytelling
   - type: gdoc
     image: saffron-surge.jpg
     subtext: "Muslim representation has seen a consistent decline in the Indian parliament"
-    title: 'The Saffron Surge: Where are the Muslim Lawmakers?'
+    title: 'The saffron surge: Where are the muslim lawmakers?'
     slug: Where-are-the-Muslim-Lawmakers
     url: https://docs.google.com/document/d/1DQUGi8HUUwQgQnwOVKbShF1lhfXrdzyuCK_oYisgsGA/edit?usp=sharing
   - type: html
     image: story_3_img.jpeg
     subtext: A walkthrough of how I used Python to scrape and clean traffic congestion data from TomTom Index
-    title: How I scraped Traffic Data for my Story
+    title: How I scraped traffic data for my story
     template: html_bootstrap
     slug: Traffic data scraping and cleaning walkthrough. 
     filepath: content/output.html
   - type: gdoc
     image: pocso.jpeg
     subtext: Relevant sections of POCSO were invoked in just 7,498 cases and only IPC Section 376 was invoked in the rest
-    title: POCSO not Invoked in 57% of Child Rape Cases in 2017    
+    title: POCSO not invoked in 57% of child rape cases in 2017    
     slug: 17500-Children-were-Raped-in-a-Year-The-Law-to-Ensure-Justice-for-them-wasnt-Invoked-in-57-of-those-Cases
     url: https://docs.google.com/document/d/1GYSmgmpSTWqLthJ3810pNwLnRaT15thZmvEuUQCZ7EY/edit?usp=sharing
   - type: gdoc
     image: cricket-world-cup.jpeg
     subtext: This edition has already seen the highest number of 'draws' ever seen in a cricket world cup
-    title: This is History's Wettest Cricket World Cup
+    title: This is history's wettest cricket world cup
     slug: Its-Already-Historys-Wettest-Cricket-World-Cup-and-Rain-Threat-for-5-f-Indias-Next-6-Matches-is-Over-50
     url: https://docs.google.com/document/d/1ZFnRlp-KNMfjahTSp5vwvUxdeWh1QBU6l7rmERxREWg/edit?usp=sharing
   - type: gdoc
     image: ppp.png
     subtext: Candidates in the Indian general election spend millions in campaigning most of which is unaccounted for
-    title: It’s No Longer an Aam Aadmi’s Election
+    title: "It’s no longer an aam aadmi’s election"
     slug: With-Cash-Flow-Worth-Crores-It’s-No-Longer-an-Aam-Aadmis-Election
     url: https://docs.google.com/document/d/18IejVzI_HAa-Fe-IbAX68c_SCk8EibjS5GcSv0imBZY/edit?usp=sharing
   - type: raw
     image: bhojpuri.webp
     subtext: Political Parties Are Banking on Bhojpuri Tunes to Woo Purvanchali Voters Who Can Make or Break the Govt. in Delhi
-    title: Bhojpuri is Making Voters Dance in Delhi Election
+    title: Bhojpuri is making voters dance in Delhi election
     slug: https://tinyurl.com/2uxpwfna
   - type: raw
     image: pocsoimmersive.gif
     subtext: Thousands of child sexual abuse cases are stuck in Indian courts because of inadequate infrastructure and complex legal procedures
-    title: The POCSO Trial By Fire
+    title: The POCSO trial by fire
     slug: https://tinyurl.com/f3bfu7yz
   - type: raw
     image: kashmir.jpeg
     subtext: What does it mean to not be able to hear from your loved ones for weeks in times of distress?
-    title: Kashmir Scrambles for Signals After Abrogation of Article 370
+    title: Kashmir scrambles for signals after abrogation of article 370
     slug: https://tinyurl.com/2dh7d575
   - type: raw
     image: dengue.gif
     subtext: Climate change brings new, deadly vocabulary to the Indian state of Odisha. A four-part series on climate change and vector-borne diseases in the state
-    title: D for Dengue, M for Malaria
+    title: D for dengue, M for malaria
     slug: https://tinyurl.com/ec9s4sdy
   - type: raw
     image: passportToKill.gif
     subtext: The anxiety over National Register of Citizens is pushing people over the brink in India's Assam
-    title: Passport to Kill
+    title: Passport to kill
     slug: https://tinyurl.com/543t9tkr
   - type: raw
     image: gandhiModiRally.jpg
     subtext: Tracking the constituencies the two leaders visited during their 2019 general election campaign
-    title: On The Campaign Trail of Rahul Gandhi & Narendra Modi
+    title: On the campaign trail of Rahul Gandhi & Narendra Modi
     slug: https://tinyurl.com/ypr3krs7
   - type: raw
     badges: Svelte
