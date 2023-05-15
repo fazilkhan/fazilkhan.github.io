@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="fl-legend-discrete-color-0-svg-screenshot-container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 1050.45">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16 {
+        fill: none;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        font-size: 19.36px;
+      }
+
+      .cls-18, .cls-19, .cls-20, .cls-21, .cls-22 {
+        font-family: HelveticaNeue, 'Helvetica Neue';
+      }
+
+      .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-15 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-23 {
+        letter-spacing: 0em;
+      }
+
+      .cls-24 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19, .cls-20 {
+        font-size: 19.96px;
+      }
+
+      .cls-19, .cls-25, .cls-21 {
+        fill: #d1a347;
+      }
+
+      .cls-20, .cls-26, .cls-22 {
+        fill: #ffdb78;
+      }
+
+      .cls-27 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-28 {
+        fill: #fff;
+      }
+
+      .cls-29 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-30 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-6, .cls-14, .cls-15 {
+        stroke: #ddd;
+      }
+
+      .cls-31 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-32 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-33 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-34 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-35 {
+        clip-path: url(#clippath-9);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-14);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-12);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-18);
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-16);
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-10);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-22);
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath-20);
+      }
+
+      .cls-36 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-37 {
+        clip-path: url(#clippath-21);
+      }
+
+      .cls-38 {
+        clip-path: url(#clippath-23);
+      }
+
+      .cls-39 {
+        clip-path: url(#clippath-13);
+      }
+
+      .cls-40 {
+        clip-path: url(#clippath-15);
+      }
+
+      .cls-41 {
+        clip-path: url(#clippath-17);
+      }
+
+      .cls-42 {
+        clip-path: url(#clippath-19);
+      }
+
+      .cls-43 {
+        clip-path: url(#clippath-11);
+      }
+
+      .cls-26 {
+        stroke: rgba(255, 219, 120, 0);
+      }
+
+      .cls-26, .cls-25 {
+        stroke-miterlimit: 5.87;
+        stroke-width: 1.47px;
+      }
+
+      .cls-25 {
+        stroke: rgba(209, 163, 71, 0);
+      }
+
+      .cls-44 {
+        letter-spacing: .02em;
+      }
+
+      .cls-45 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-21, .cls-22 {
+        font-size: 16.89px;
+      }
+
+      .cls-15 {
+        opacity: .7;
+        stroke-width: 5.6px;
+      }
+
+      .cls-16 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <polygon class="cls-1" points="-26.5 43.5 -25.5 43.5 -26.5 44.5 -26.5 43.5"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <polygon class="cls-16" points="-28.5 41.5 -29.5 41.5 -28.5 40.5 -28.5 41.5"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <polygon class="cls-1" points="-26.5 43.5 -25.5 43.5 -26.5 44.5 -26.5 43.5"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <polygon class="cls-5" points="-28.5 41.5 -29.5 41.5 -28.5 40.5 -28.5 41.5"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <polygon class="cls-1" points="-26.5 43.5 -25.5 43.5 -26.5 44.5 -26.5 43.5"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <polygon class="cls-4" points="-28.5 41.5 -29.5 41.5 -28.5 40.5 -28.5 41.5"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <polygon class="cls-1" points="-26.5 43.5 -25.5 43.5 -26.5 44.5 -26.5 43.5"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <polygon class="cls-3" points="-28.5 41.5 -29.5 41.5 -28.5 40.5 -28.5 41.5"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <polygon class="cls-1" points="-26.5 43.5 -25.5 43.5 -26.5 44.5 -26.5 43.5"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <polygon class="cls-2" points="-28.5 41.5 -29.5 41.5 -28.5 40.5 -28.5 41.5"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <polygon class="cls-1" points="-26.5 43.5 -25.5 43.5 -26.5 44.5 -26.5 43.5"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <polygon class="cls-11" points="-28.5 41.5 -29.5 41.5 -28.5 40.5 -28.5 41.5"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <polygon class="cls-1" points="-26.5 43.5 -25.5 43.5 -26.5 44.5 -26.5 43.5"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <polygon class="cls-8" points="-28.5 41.5 -29.5 41.5 -28.5 40.5 -28.5 41.5"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <polygon class="cls-1" points="-26.5 43.5 -25.5 43.5 -26.5 44.5 -26.5 43.5"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <polygon class="cls-7" points="-28.5 41.5 -29.5 41.5 -28.5 40.5 -28.5 41.5"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <polygon class="cls-1" points="-26.5 43.5 -25.5 43.5 -26.5 44.5 -26.5 43.5"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <polygon class="cls-10" points="-28.5 41.5 -29.5 41.5 -28.5 40.5 -28.5 41.5"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <polygon class="cls-1" points="-26.5 43.5 -25.5 43.5 -26.5 44.5 -26.5 43.5"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <polygon class="cls-9" points="-28.5 41.5 -29.5 41.5 -28.5 40.5 -28.5 41.5"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <polygon class="cls-1" points="-26.5 43.5 -25.5 43.5 -26.5 44.5 -26.5 43.5"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <polygon class="cls-13" points="-28.5 41.5 -29.5 41.5 -28.5 40.5 -28.5 41.5"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <polygon class="cls-1" points="-26.5 43.5 -25.5 43.5 -26.5 44.5 -26.5 43.5"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <polygon class="cls-12" points="-28.5 41.5 -29.5 41.5 -28.5 40.5 -28.5 41.5"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g class="cls-31">
+      <path class="cls-15" d="M370.1,81.6h358.1" marker-end="url(#arrowhead-line-University-of-California-Berkeley-facet-)"/>
+    </g>
+    <g class="cls-32">
+      <path class="cls-15" d="M464.9,118.2h242.2" marker-end="url(#arrowhead-line-The-University-of-Texas-at-Austin-facet-)"/>
+    </g>
+    <g class="cls-34">
+      <path class="cls-15" d="M306.9,154.9h210.6" marker-end="url(#arrowhead-line-University-of-Colorado-Boulder-facet-)"/>
+    </g>
+    <g class="cls-33">
+      <path class="cls-15" d="M454.4,191.6h179" marker-end="url(#arrowhead-line-University-of-Arizona-facet-)"/>
+    </g>
+    <g class="cls-35">
+      <path class="cls-15" d="M422.8,228.2h179" marker-end="url(#arrowhead-line-University-of-Nevada-Reno-facet-)"/>
+    </g>
+    <g class="cls-43">
+      <path class="cls-15" d="M264.8,264.9h168.5" marker-end="url(#arrowhead-line-University-at-Buffalo-facet-)"/>
+    </g>
+    <g class="cls-39">
+      <path class="cls-15" d="M275.3,301.6h168.5" marker-end="url(#arrowhead-line-University-of-Rhode-Island-facet-)"/>
+    </g>
+    <g class="cls-40">
+      <path class="cls-15" d="M306.9,338.2h147.4" marker-end="url(#arrowhead-line-Rutgers-University-New-Brunswick-facet-)"/>
+    </g>
+    <g class="cls-41">
+      <path class="cls-15" d="M401.7,374.9h105.3" marker-end="url(#arrowhead-line-University-of-Florida-facet-)"/>
+    </g>
+    <g class="cls-42">
+      <path class="cls-15" d="M254.3,411.5h105.3" marker-end="url(#arrowhead-line-University-of-Nebraska-Lincoln-facet-)"/>
+    </g>
+    <g class="cls-37">
+      <path class="cls-15" d="M264.8,448.2h105.3" marker-end="url(#arrowhead-line-University-of-Massachusetts-Amherst-facet-)"/>
+    </g>
+    <g class="cls-38">
+      <path class="cls-15" d="M254.3,484.9h115.8" marker-end="url(#arrowhead-line-University-of-Kansas-facet-)"/>
+    </g>
+  </g>
+  <line class="cls-14" x1="96.27" y1="165.02" x2="96.27" y2="141.98"/>
+  <text class="cls-18" transform="translate(40.86 62.37)"><tspan x="0" y="0">University of Califo</tspan><tspan class="cls-44" x="162.75" y="0">r</tspan><tspan x="169.55" y="0">nia-Berkeley</tspan></text>
+  <line class="cls-14" x1="629.44" y1="165.02" x2="629.44" y2="141.98"/>
+  <text class="cls-20" transform="translate(96.27 113.59)"><tspan x="0" y="0">Pe</tspan><tspan class="cls-36" x="23.66" y="0">r</tspan><tspan class="cls-24" x="29.94" y="0">cent of f</tspan><tspan class="cls-29" x="103.15" y="0">r</tspan><tspan x="109.44" y="0">eshmen</tspan><tspan x="0" y="23.96">who a</tspan><tspan class="cls-29" x="53.96" y="23.96">r</tspan><tspan x="60.25" y="23.96">e Hispanic</tspan></text>
+  <text class="cls-19" transform="translate(477.54 89.64)"><tspan x="0" y="0">Pe</tspan><tspan class="cls-27" x="23.66" y="0">r</tspan><tspan x="29.94" y="0">cent of public</tspan></text>
+  <text class="cls-19" transform="translate(431.63 113.59)"><tspan x="0" y="0">high school graduates</tspan></text>
+  <text class="cls-19" transform="translate(413.2 137.55)"><tspan x="0" y="0">who a</tspan><tspan class="cls-36" x="53.96" y="0">r</tspan><tspan class="cls-23" x="60.25" y="0">e Hispanic/Latino</tspan></text>
+  <line class="cls-6" x1="96.12" y1="166.25" x2="629.74" y2="166.25"/>
+  <path id="dot-0" class="cls-26" d="M105.18,166.25c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91c4.76-.15,8.91,3.84,8.91,8.91" vector-effect="non-scaling-stroke"/>
+  <path id="dot-1" class="cls-25" d="M638.34,166.25c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91,8.91,3.84,8.91,8.91" vector-effect="non-scaling-stroke"/>
+  <text class="cls-22" transform="translate(42.29 173.12)"><tspan x="0" y="0">20%</tspan></text>
+  <text class="cls-21" transform="translate(647.63 173.12)"><tspan x="0" y="0">54%</tspan></text>
+  <g>
+    <text class="cls-18" transform="translate(42.29 213.65)"><tspan x="0" y="0">The University of </tspan><tspan class="cls-45" x="150.59" y="0">T</tspan><tspan x="159.56" y="0">exas at Austin</tspan></text>
+    <g>
+      <line class="cls-6" x1="93.5" y1="241.92" x2="456.98" y2="241.92"/>
+      <path id="dot-2" class="cls-26" d="M105.17,241.92c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91c4.91,0,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <path id="dot-3" class="cls-25" d="M465.89,241.92c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <text class="cls-22" transform="translate(42.33 248.14)"><tspan x="0" y="0">29%</tspan></text>
+      <text class="cls-21" transform="translate(475.13 248.14)"><tspan x="0" y="0">52%</tspan></text>
+    </g>
+  </g>
+  <g>
+    <text class="cls-21" transform="translate(433.17 323.16)"><tspan x="0" y="0">34%</tspan></text>
+    <g>
+      <text class="cls-18" transform="translate(42.37 962.38)"><tspan x="0" y="0">University of Kansas</tspan></text>
+      <text class="cls-18" transform="translate(42.37 887.94)"><tspan x="0" y="0">University of Massachusetts-Amherst</tspan></text>
+      <text class="cls-18" transform="translate(42.37 813.26)"><tspan x="0" y="0">University of Nebraska-Lincoln</tspan></text>
+      <text class="cls-18" transform="translate(42.37 738.27)"><tspan x="0" y="0">University of Florida</tspan></text>
+      <text class="cls-18" transform="translate(42.29 663.57)"><tspan x="0" y="0">Rutgers University-New Brunswick</tspan></text>
+      <text class="cls-18" transform="translate(42.37 588.72)"><tspan x="0" y="0">University of Rhode Island</tspan></text>
+      <text class="cls-18" transform="translate(42.37 513.79)"><tspan x="0" y="0">University at Bu</tspan><tspan class="cls-30" x="136.61" y="0">f</tspan><tspan class="cls-17" x="142" y="0">falo</tspan></text>
+      <text class="cls-18" transform="translate(42.36 438.8)"><tspan x="0" y="0">University of Nevada-Reno</tspan></text>
+      <text class="cls-18" transform="translate(42.36 363.76)"><tspan x="0" y="0">University of Arizona</tspan></text>
+      <text class="cls-18" transform="translate(42.36 288.84)"><tspan x="0" y="0">University of Colorado Boulder</tspan></text>
+      <line class="cls-6" x1="97.61" y1="317.12" x2="413.02" y2="317.12"/>
+      <path id="dot-4" class="cls-26" d="M106.67,317.12c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91c4.91-.15,8.91,3.84,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <text class="cls-22" transform="translate(43.8 323.22)"><tspan x="0" y="0">14%</tspan></text>
+      <line class="cls-6" x1="97.61" y1="392.02" x2="364.34" y2="392.02"/>
+      <path id="dot-6" class="cls-26" d="M106.67,392.02c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <path id="dot-7" class="cls-25" d="M373.25,392.02c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <text class="cls-22" transform="translate(43.8 398.27)"><tspan x="0" y="0">28%</tspan></text>
+      <text class="cls-21" transform="translate(382.49 398.2)"><tspan x="0" y="0">45%</tspan></text>
+      <line class="cls-6" x1="97.98" y1="467.07" x2="364.26" y2="467.07"/>
+      <path id="dot-8" class="cls-26" d="M106.58,467.07c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <path id="dot-9" class="cls-25" d="M373.32,467.07c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <text class="cls-22" transform="translate(43.8 473.26)"><tspan x="0" y="0">25%</tspan></text>
+      <text class="cls-21" transform="translate(382.49 473.19)"><tspan x="0" y="0">42%</tspan></text>
+      <line class="cls-6" x1="98" y1="542.21" x2="350.76" y2="542.21"/>
+      <path id="dot-10" class="cls-26" d="M106.6,542.06c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91c4.91-.15,8.91,3.84,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <path id="dot-11" class="cls-25" d="M357.52,542.06c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91c4.91-.15,8.91,3.84,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <text class="cls-22" transform="translate(43.8 548.19)"><tspan x="0" y="0">10%</tspan></text>
+      <text class="cls-21" transform="translate(366.8 548.12)"><tspan x="0" y="0">26%</tspan></text>
+      <line class="cls-6" x1="96.29" y1="617.45" x2="348.59" y2="617.45"/>
+      <path id="dot-12" class="cls-26" d="M106.58,616.99c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <path id="dot-13" class="cls-25" d="M357.65,616.99c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <text class="cls-22" transform="translate(43.8 623.2)"><tspan x="0" y="0">11%</tspan></text>
+      <text class="cls-21" transform="translate(366.8 623.13)"><tspan x="0" y="0">27%</tspan></text>
+      <line class="cls-6" x1="97.61" y1="691.89" x2="317.2" y2="691.89"/>
+      <g>
+        <path id="dot-14" class="cls-26" d="M106.67,691.89c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91c4.91-.15,8.91,3.84,8.91,8.91" vector-effect="non-scaling-stroke"/>
+        <path id="dot-15" class="cls-25" d="M326.26,691.89c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91c4.91-.15,8.91,3.84,8.91,8.91" vector-effect="non-scaling-stroke"/>
+        <text class="cls-22" transform="translate(43.8 697.74)"><tspan x="0" y="0">14%</tspan></text>
+        <text class="cls-21" transform="translate(335.43 697.67)"><tspan x="0" y="0">28%</tspan></text>
+      </g>
+      <line class="cls-6" x1="95.41" y1="766.54" x2="256.81" y2="766.54"/>
+      <path id="dot-16" class="cls-26" d="M106.62,766.54c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <path id="dot-17" class="cls-25" d="M263.41,766.54c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <text class="cls-22" transform="translate(43.8 772.72)"><tspan x="0" y="0">23%</tspan></text>
+      <text class="cls-21" transform="translate(272.69 772.66)"><tspan x="0" y="0">33%</tspan></text>
+      <line class="cls-6" x1="86.79" y1="841.53" x2="245.11" y2="841.53"/>
+      <path id="dot-18" class="cls-26" d="M97.23,841.53c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91c4.91-.15,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <path id="dot-19" class="cls-25" d="M254.02,841.53c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91c4.91-.15,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+      <text class="cls-22" transform="translate(43.8 847.41)"><tspan x="0" y="0">9%</tspan></text>
+      <text class="cls-21" transform="translate(263.3 847.34)"><tspan x="0" y="0">19%</tspan></text>
+      <line class="cls-6" x1="97.08" y1="916.5" x2="254.48" y2="916.5"/>
+      <g>
+        <path id="dot-20" class="cls-26" d="M106.6,916.81c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91c4.91,0,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+        <path id="dot-21" class="cls-25" d="M263.54,916.81c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91c4.76,0,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+        <text class="cls-22" transform="translate(43.8 921.85)"><tspan x="0" y="0">10%</tspan></text>
+        <text class="cls-21" transform="translate(272.69 921.78)"><tspan x="0" y="0">20%</tspan></text>
+      </g>
+      <line class="cls-6" x1="87.86" y1="990.65" x2="260.77" y2="990.65"/>
+      <g>
+        <path id="dot-22" class="cls-26" d="M97.23,990.65c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91c4.91,0,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+        <path id="dot-23" class="cls-25" d="M269.83,990.65c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91c4.76,0,8.91,3.99,8.91,8.91" vector-effect="non-scaling-stroke"/>
+        <text class="cls-22" transform="translate(43.8 996.55)"><tspan x="0" y="0">9%</tspan></text>
+        <text class="cls-21" transform="translate(278.99 996.48)"><tspan x="0" y="0">20%</tspan></text>
+      </g>
+    </g>
+    <path id="dot-5" class="cls-25" d="M424.01,317.12c0,4.91-3.99,8.91-8.91,8.91s-8.91-3.99-8.91-8.91,3.99-8.91,8.91-8.91c4.76-.15,8.91,3.84,8.91,8.91" vector-effect="non-scaling-stroke"/>
+  </g>
+  <rect class="cls-28" x="22.91" y="264.9" width="659.01" height="762.96"/>
+</svg>
