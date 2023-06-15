@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="fl-legend-discrete-color-0-svg-screenshot-container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 515.8">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-5 {
+        stroke-linecap: square;
+      }
+
+      .cls-5, .cls-6, .cls-18 {
+        stroke: #ddd;
+      }
+
+      .cls-20, .cls-21, .cls-22 {
+        fill: #0082b3;
+      }
+
+      .cls-23, .cls-24, .cls-25 {
+        fill: #99def8;
+      }
+
+      .cls-26 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-26, .cls-24, .cls-21, .cls-19, .cls-27, .cls-25, .cls-22 {
+        isolation: isolate;
+      }
+
+      .cls-26, .cls-24, .cls-21, .cls-27, .cls-25, .cls-22 {
+        font-family: HelveticaNeue, 'Helvetica Neue';
+      }
+
+      .cls-26, .cls-27 {
+        font-size: 13px;
+      }
+
+      .cls-6 {
+        stroke-width: 5px;
+      }
+
+      .cls-6, .cls-28 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-29 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-30 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-31 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-13);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-19);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-16);
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-10);
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-25);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-22);
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath-40);
+      }
+
+      .cls-14 {
+        clip-path: url(#clippath-34);
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath-37);
+      }
+
+      .cls-16 {
+        clip-path: url(#clippath-28);
+      }
+
+      .cls-17 {
+        clip-path: url(#clippath-31);
+      }
+
+      .cls-24, .cls-21 {
+        font-size: 11px;
+      }
+
+      .cls-32 {
+        clip-path: url(#clippath-20);
+      }
+
+      .cls-33 {
+        clip-path: url(#clippath-23);
+      }
+
+      .cls-34 {
+        clip-path: url(#clippath-41);
+      }
+
+      .cls-35 {
+        clip-path: url(#clippath-26);
+      }
+
+      .cls-36 {
+        clip-path: url(#clippath-29);
+      }
+
+      .cls-37 {
+        clip-path: url(#clippath-35);
+      }
+
+      .cls-38 {
+        clip-path: url(#clippath-32);
+      }
+
+      .cls-39 {
+        clip-path: url(#clippath-38);
+      }
+
+      .cls-40 {
+        clip-path: url(#clippath-14);
+      }
+
+      .cls-41 {
+        clip-path: url(#clippath-17);
+      }
+
+      .cls-42 {
+        clip-path: url(#clippath-11);
+      }
+
+      .cls-28 {
+        fill: #fff;
+        stroke: #fff;
+      }
+
+      .cls-19 {
+        opacity: .7;
+        stroke: #bcbcbc;
+        stroke-width: 5.6px;
+      }
+
+      .cls-25, .cls-22 {
+        font-size: 12px;
+      }
+    </style>
+    <clipPath id="clippath-1">
+      <polygon class="cls-1" points="20 34.2 21 34.2 20 35.2 20 34.2"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <polygon class="cls-4" points="18 32.2 17 32.2 18 31.2 18 32.2"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <polygon class="cls-1" points="20 34.2 21 34.2 20 35.2 20 34.2"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <polygon class="cls-3" points="18 32.2 17 32.2 18 31.2 18 32.2"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <polygon class="cls-1" points="20 34.2 21 34.2 20 35.2 20 34.2"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <polygon class="cls-2" points="18 32.2 17 32.2 18 31.2 18 32.2"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <polygon class="cls-1" points="20 34.2 21 34.2 20 35.2 20 34.2"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <polygon class="cls-10" points="18 32.2 17 32.2 18 31.2 18 32.2"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <polygon class="cls-1" points="20 34.2 21 34.2 20 35.2 20 34.2"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <polygon class="cls-7" points="18 32.2 17 32.2 18 31.2 18 32.2"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <polygon class="cls-1" points="20 34.2 21 34.2 20 35.2 20 34.2"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <polygon class="cls-9" points="18 32.2 17 32.2 18 31.2 18 32.2"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <polygon class="cls-1" points="20 34.2 21 34.2 20 35.2 20 34.2"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <polygon class="cls-8" points="18 32.2 17 32.2 18 31.2 18 32.2"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <polygon class="cls-1" points="20 34.2 21 34.2 20 35.2 20 34.2"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <polygon class="cls-12" points="18 32.2 17 32.2 18 31.2 18 32.2"/>
+    </clipPath>
+    <clipPath id="clippath-25">
+      <polygon class="cls-1" points="20 34.2 21 34.2 20 35.2 20 34.2"/>
+    </clipPath>
+    <clipPath id="clippath-26">
+      <polygon class="cls-11" points="18 32.2 17 32.2 18 31.2 18 32.2"/>
+    </clipPath>
+    <clipPath id="clippath-28">
+      <polygon class="cls-1" points="20 34.2 21 34.2 20 35.2 20 34.2"/>
+    </clipPath>
+    <clipPath id="clippath-29">
+      <polygon class="cls-16" points="18 32.2 17 32.2 18 31.2 18 32.2"/>
+    </clipPath>
+    <clipPath id="clippath-31">
+      <polygon class="cls-1" points="20 34.2 21 34.2 20 35.2 20 34.2"/>
+    </clipPath>
+    <clipPath id="clippath-32">
+      <polygon class="cls-17" points="18 32.2 17 32.2 18 31.2 18 32.2"/>
+    </clipPath>
+    <clipPath id="clippath-34">
+      <polygon class="cls-1" points="20 34.2 21 34.2 20 35.2 20 34.2"/>
+    </clipPath>
+    <clipPath id="clippath-35">
+      <polygon class="cls-14" points="18 32.2 17 32.2 18 31.2 18 32.2"/>
+    </clipPath>
+    <clipPath id="clippath-37">
+      <polygon class="cls-1" points="20 34.2 21 34.2 20 35.2 20 34.2"/>
+    </clipPath>
+    <clipPath id="clippath-38">
+      <polygon class="cls-15" points="18 32.2 17 32.2 18 31.2 18 32.2"/>
+    </clipPath>
+    <clipPath id="clippath-40">
+      <polygon class="cls-1" points="20 34.2 21 34.2 20 35.2 20 34.2"/>
+    </clipPath>
+    <clipPath id="clippath-41">
+      <polygon class="cls-13" points="18 32.2 17 32.2 18 31.2 18 32.2"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g class="cls-29">
+      <path class="cls-19" d="M375.6,69.5h389.4" marker-end="url(#arrowhead-line-University-of-Mississippi-facet-)"/>
+    </g>
+    <g class="cls-31">
+      <path class="cls-19" d="M356.1,100.6h292" marker-end="url(#arrowhead-line-University-of-Georgia-facet-)"/>
+    </g>
+    <g class="cls-30">
+      <path class="cls-19" d="M375.6,131.7h262.8" marker-end="url(#arrowhead-line-University-of-South-Carolina-Columbia-facet-)"/>
+    </g>
+    <g class="cls-42">
+      <path class="cls-19" d="M482.7,162.8h233.6" marker-end="url(#arrowhead-line-Louisiana-State-University-and-Agricultural-&amp;-Mechanical-College-facet-)"/>
+    </g>
+    <g class="cls-40">
+      <path class="cls-19" d="M365.9,193.9h233.6" marker-end="url(#arrowhead-line-University-of-Delaware-facet-)"/>
+    </g>
+    <g class="cls-41">
+      <path class="cls-19" d="M395.1,225h223.9" marker-end="url(#arrowhead-line-University-of-Maryland-College-Park-facet-)"/>
+    </g>
+    <g class="cls-32">
+      <path class="cls-19" d="M404.8,256.1h194.7" marker-end="url(#arrowhead-line-The-University-of-Alabama-facet-)"/>
+    </g>
+    <g class="cls-33">
+      <path class="cls-19" d="M336.7,287.2h194.7" marker-end="url(#arrowhead-line-The-University-of-Tennessee-Knoxville-facet-)"/>
+    </g>
+    <g class="cls-35">
+      <path class="cls-19" d="M346.4,318.3h155.8" marker-end="url(#arrowhead-line-University-of-Florida-facet-)"/>
+    </g>
+    <g class="cls-36">
+      <path class="cls-19" d="M326.9,349.4h165.5" marker-end="url(#arrowhead-line-University-of-Arkansas-facet-)"/>
+    </g>
+    <g class="cls-38">
+      <path class="cls-19" d="M385.3,380.5h155.7" marker-end="url(#arrowhead-line-University-of-North-Carolina-at-Chapel-Hill-facet-)"/>
+    </g>
+    <g class="cls-37">
+      <path class="cls-19" d="M356.1,411.6h155.8" marker-end="url(#arrowhead-line-University-of-Virginia-Main-Campus-facet-)"/>
+    </g>
+    <g class="cls-39">
+      <path class="cls-19" d="M336.7,442.8h126.5" marker-end="url(#arrowhead-line-University-of-Michigan-Ann-Arbor-facet-)"/>
+    </g>
+    <g class="cls-34">
+      <path class="cls-19" d="M346.4,473.9h97.3" marker-end="url(#arrowhead-line-University-of-Missouri-Columbia-facet-)"/>
+    </g>
+  </g>
+  <line class="cls-5" x1="286.1" y1="476.7" x2="286.1" y2="60.9"/>
+  <line class="cls-18" x1="286.1" y1="461.9" x2="279.4" y2="461.9"/>
+  <line class="cls-18" x1="286.1" y1="432.2" x2="279.4" y2="432.2"/>
+  <line class="cls-18" x1="286.1" y1="402.5" x2="279.4" y2="402.5"/>
+  <line class="cls-18" x1="286.1" y1="372.8" x2="279.4" y2="372.8"/>
+  <line class="cls-18" x1="286.1" y1="343.1" x2="279.4" y2="343.1"/>
+  <line class="cls-18" x1="286.1" y1="313.4" x2="279.4" y2="313.4"/>
+  <line class="cls-18" x1="286.1" y1="283.6" x2="279.4" y2="283.6"/>
+  <line class="cls-18" x1="286.1" y1="253.9" x2="279.4" y2="253.9"/>
+  <line class="cls-18" x1="286.1" y1="224.2" x2="279.4" y2="224.2"/>
+  <line class="cls-18" x1="286.1" y1="194.6" x2="279.4" y2="194.6"/>
+  <line class="cls-18" x1="286.1" y1="164.9" x2="279.4" y2="164.9"/>
+  <line class="cls-18" x1="286.1" y1="135.1" x2="279.4" y2="135.1"/>
+  <line class="cls-18" x1="286.1" y1="105.4" x2="279.4" y2="105.4"/>
+  <line class="cls-18" x1="286.1" y1="75.7" x2="279.4" y2="75.7"/>
+  <line class="cls-6" x1="360.4" y1="75.7" x2="732.2" y2="75.7"/>
+  <line class="cls-6" x1="344.7" y1="105.4" x2="619.8" y2="105.4"/>
+  <line class="cls-6" x1="358.7" y1="135.1" x2="611.4" y2="135.1"/>
+  <line class="cls-6" x1="461" y1="164.9" x2="685.7" y2="164.9"/>
+  <line class="cls-6" x1="352.5" y1="194.6" x2="573" y2="194.6"/>
+  <line class="cls-6" x1="377.3" y1="224.2" x2="592.8" y2="224.2"/>
+  <line class="cls-6" x1="386.6" y1="253.9" x2="574.2" y2="253.9"/>
+  <line class="cls-6" x1="324.3" y1="284.1" x2="508.3" y2="284.1"/>
+  <line class="cls-6" x1="330.8" y1="313.4" x2="481.2" y2="313.4"/>
+  <line class="cls-6" x1="314" y1="343.1" x2="472" y2="343.1"/>
+  <line class="cls-6" x1="369.7" y1="372.8" x2="518.4" y2="372.8"/>
+  <line class="cls-6" x1="342.9" y1="402.5" x2="490.5" y2="402.5"/>
+  <line class="cls-6" x1="323.4" y1="432.2" x2="444.1" y2="432.2"/>
+  <line class="cls-6" x1="330.8" y1="461.9" x2="425.5" y2="461.9"/>
+  <line class="cls-18" x1="360.4" y1="74.8" x2="360.4" y2="59.8"/>
+  <line class="cls-18" x1="732.2" y1="73.4" x2="732.2" y2="58.4"/>
+  <path id="dot-0" class="cls-23" d="M366.1,75.7c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.6-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.6,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-1" class="cls-20" d="M737.9,75.7c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.6-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.6,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-2" class="cls-23" d="M347.5,105.4c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.6-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.6,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-3" class="cls-20" d="M626.4,105.4c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.6-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.6,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-4" class="cls-23" d="M366.1,135.1c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.6-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.6,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-5" class="cls-20" d="M617.1,135.1c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.6-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.6,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-6" class="cls-23" d="M468.4,164.9c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.6-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-7" class="cls-20" d="M691.4,164.9c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.6-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-8" class="cls-23" d="M356.8,194.6c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.6-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-9" class="cls-20" d="M579.9,194.6c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.6-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-10" class="cls-23" d="M384.7,224.2c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.6-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.6,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-11" class="cls-20" d="M598.5,224.2c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.6-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.6,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-12" class="cls-23" d="M394,253.9c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.6,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-13" class="cls-20" d="M579.9,253.9c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.6,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-14" class="cls-23" d="M328.9,283.6c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.6,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-15" class="cls-20" d="M514.8,283.6c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.6,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-16" class="cls-23" d="M338.2,313.4c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-17" class="cls-20" d="M487,313.4c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-18" class="cls-23" d="M319.6,343.1c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-19" class="cls-20" d="M477.6,343.1c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-20" class="cls-23" d="M375.4,372.8c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-21" class="cls-20" d="M524.1,372.8c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-22" class="cls-23" d="M347.5,402.5c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-23" class="cls-20" d="M496.2,402.5c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-24" class="cls-23" d="M328.9,432.2c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-25" class="cls-20" d="M449.8,432.2c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-26" class="cls-23" d="M338.2,461.9c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <path id="dot-27" class="cls-20" d="M431.2,461.9c0,3.1-2.5,5.7-5.7,5.7s-5.7-2.5-5.7-5.7,2.5-5.7,5.7-5.7,5.7,2.5,5.7,5.7" vector-effect="non-scaling-stroke"/>
+  <text class="cls-25" transform="translate(358.71 39)"><tspan x="0" y="0">Pe</tspan></text>
+  <text class="cls-25" transform="translate(372.93 39)"><tspan x="0" y="0">r</tspan></text>
+  <text class="cls-25" transform="translate(376.71 39)"><tspan x="0" y="0">cent of f</tspan></text>
+  <text class="cls-25" transform="translate(420.71 39)"><tspan x="0" y="0">r</tspan></text>
+  <text class="cls-25" transform="translate(424.49 39)"><tspan x="0" y="0">eshmen</tspan></text>
+  <text class="cls-25" transform="translate(358.71 54)"><tspan x="0" y="0">who a</tspan></text>
+  <text class="cls-25" transform="translate(391.15 54)"><tspan x="0" y="0">r</tspan></text>
+  <text class="cls-25" transform="translate(394.93 54)"><tspan x="0" y="0">e Black</tspan></text>
+  <text class="cls-22" transform="translate(612.69 24)"><tspan x="0" y="0">Pe</tspan></text>
+  <text class="cls-22" transform="translate(626.91 24)"><tspan x="0" y="0">r</tspan></text>
+  <text class="cls-22" transform="translate(630.69 24)"><tspan x="0" y="0">cent of state public</tspan></text>
+  <text class="cls-22" transform="translate(612.69 39)"><tspan x="0" y="0">high school graduates</tspan></text>
+  <text class="cls-22" transform="translate(612.69 54)"><tspan x="0" y="0">who a</tspan></text>
+  <text class="cls-22" transform="translate(645.13 54)"><tspan x="0" y="0">r</tspan></text>
+  <text class="cls-22" transform="translate(648.91 54)"><tspan x="0" y="0">e Black</tspan></text>
+  <text class="cls-24" transform="translate(332.63 79.71)"><tspan x="0" y="0">8%</tspan></text>
+  <text class="cls-24" transform="translate(332.63 139.11)"><tspan x="0" y="0">8%</tspan></text>
+  <text class="cls-24" transform="translate(314.04 109.41)"><tspan x="0" y="0">6%</tspan></text>
+  <text class="cls-24" transform="translate(428.76 168.45)"><tspan x="0" y="0">19%</tspan></text>
+  <text class="cls-24" transform="translate(323.34 197.55)"><tspan x="0" y="0">7%</tspan></text>
+  <text class="cls-24" transform="translate(345.1 227.22)"><tspan x="0" y="0">10%</tspan></text>
+  <text class="cls-24" transform="translate(354.4 257.87)"><tspan x="0" y="0">11%</tspan></text>
+  <text class="cls-24" transform="translate(295.45 286.62)"><tspan x="0" y="0">4%</tspan></text>
+  <text class="cls-24" transform="translate(304.75 316.33)"><tspan x="0" y="0">5%</tspan></text>
+  <text class="cls-24" transform="translate(286.16 346.75)"><tspan x="0" y="0">3%</tspan></text>
+  <text class="cls-24" transform="translate(341.93 375.73)"><tspan x="0" y="0">9%</tspan></text>
+  <text class="cls-24" transform="translate(314.04 406.43)"><tspan x="0" y="0">6%</tspan></text>
+  <text class="cls-24" transform="translate(295.45 435.86)"><tspan x="0" y="0">4%</tspan></text>
+  <text class="cls-24" transform="translate(304.75 465.56)"><tspan x="0" y="0">5%</tspan></text>
+  <text class="cls-21" transform="translate(743.6 79.71)"><tspan x="0" y="0">48%</tspan></text>
+  <text class="cls-21" transform="translate(632.04 109.41)"><tspan x="0" y="0">36%</tspan></text>
+  <text class="cls-21" transform="translate(697.12 168.45)"><tspan x="0" y="0">43%</tspan></text>
+  <text class="cls-21" transform="translate(622.75 139.11)"><tspan x="0" y="0">35%</tspan></text>
+  <text class="cls-21" transform="translate(585.57 198.52)"><tspan x="0" y="0">31%</tspan></text>
+  <text class="cls-21" transform="translate(604.16 228.22)"><tspan x="0" y="0">33%</tspan></text>
+  <text class="cls-21" transform="translate(585.57 257.95)"><tspan x="0" y="0">31%</tspan></text>
+  <text class="cls-21" transform="translate(520.57 287.62)"><tspan x="0" y="0">24%</tspan></text>
+  <text class="cls-21" transform="translate(492.69 317.33)"><tspan x="0" y="0">21%</tspan></text>
+  <text class="cls-21" transform="translate(483.39 346.06)"><tspan x="0" y="0">20%</tspan></text>
+  <text class="cls-21" transform="translate(529.87 375.76)"><tspan x="0" y="0">25%</tspan></text>
+  <text class="cls-21" transform="translate(501.98 406.43)"><tspan x="0" y="0">22%</tspan></text>
+  <text class="cls-21" transform="translate(454.81 436.86)"><tspan x="0" y="0">17%</tspan></text>
+  <text class="cls-21" transform="translate(436.22 465.56)"><tspan x="0" y="0">15%</tspan></text>
+  <text class="cls-27" transform="translate(86.83 465.84)"><tspan x="0" y="0">University of Missouri-Columbia</tspan></text>
+  <text class="cls-27" transform="translate(79.85 436.14)"><tspan x="0" y="0">University of Michigan-Ann Arbor</tspan></text>
+  <text class="cls-27" transform="translate(68.64 406.43)"><tspan x="0" y="0">University of </tspan></text>
+  <text class="cls-27" transform="translate(144.47 406.43)"><tspan x="0" y="0">V</tspan></text>
+  <text class="cls-27" transform="translate(152.18 406.43)"><tspan x="0" y="0">i</tspan></text>
+  <text class="cls-27" transform="translate(155.06 406.43)"><tspan x="0" y="0">r</tspan></text>
+  <text class="cls-27" transform="translate(159.03 406.43)"><tspan x="0" y="0">ginia-Main Campus</tspan></text>
+  <text class="cls-27" transform="translate(31.48 376.73)"><tspan x="0" y="0">University of North Ca</tspan></text>
+  <text class="cls-27" transform="translate(159.79 376.73)"><tspan x="0" y="0">r</tspan></text>
+  <text class="cls-27" transform="translate(163.88 376.73)"><tspan x="0" y="0">olina at Chapel Hill</tspan></text>
+  <text class="cls-27" transform="translate(142.94 347.03)"><tspan x="0" y="0">University of Arkansas</tspan></text>
+  <text class="cls-27" transform="translate(156.91 317.33)"><tspan x="0" y="0">University of Florida</tspan></text>
+  <text class="cls-27" transform="translate(52.66 287.62)"><tspan x="0" y="0">The University of </tspan></text>
+  <text class="cls-26" transform="translate(153.77 287.62)"><tspan x="0" y="0">T</tspan></text>
+  <text class="cls-27" transform="translate(159.79 287.62)"><tspan x="0" y="0">ennessee-Knoxville</tspan></text>
+  <text class="cls-27" transform="translate(120.29 257.92)"><tspan x="0" y="0">The University of Alabama</tspan></text>
+  <text class="cls-27" transform="translate(63.5 228.22)"><tspan x="0" y="0">University of Maryland-College Park</tspan></text>
+  <text class="cls-27" transform="translate(142.72 198.52)"><tspan x="0" y="0">University of Delawa</tspan></text>
+  <text class="cls-27" transform="translate(261.38 198.52)"><tspan x="0" y="0">r</tspan></text>
+  <text class="cls-27" transform="translate(265.48 198.52)"><tspan x="0" y="0">e</tspan></text>
+  <text class="cls-27" transform="translate(96.45 159.94)"><tspan x="0" y="0">Louisiana State University and</tspan></text>
+  <text class="cls-27" transform="translate(76.65 175.17)"><tspan x="0" y="0">Agricultural &amp; Mechanical College</tspan></text>
+  <text class="cls-27" transform="translate(49.99 139.11)"><tspan x="0" y="0">University of South Ca</tspan></text>
+  <text class="cls-27" transform="translate(180.24 139.11)"><tspan x="0" y="0">r</tspan></text>
+  <text class="cls-27" transform="translate(184.33 139.11)"><tspan x="0" y="0">olina-Columbia</tspan></text>
+  <text class="cls-27" transform="translate(151.02 109.41)"><tspan x="0" y="0">University of Geo</tspan></text>
+  <text class="cls-27" transform="translate(251.16 109.41)"><tspan x="0" y="0">r</tspan></text>
+  <text class="cls-27" transform="translate(255.12 109.41)"><tspan x="0" y="0">gia</tspan></text>
+  <text class="cls-27" transform="translate(132.34 79.71)"><tspan x="0" y="0">University of Mississippi</tspan></text>
+  <rect class="cls-28" x="19.15" y="120.65" width="771.49" height="370.38"/>
+</svg>
