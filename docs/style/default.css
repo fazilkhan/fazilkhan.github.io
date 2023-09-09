@@ -204,7 +204,7 @@ img {
         text-align: center; /* Center text within the box */
         box-sizing: border-box; /* Include padding in the box dimensions */
         width: 100%; /* Ensure the fadedbox takes the full width of the image */
-        height: 85%; /* Ensure the fadedbox takes the full height of the image */
+        height: 88%; /* Ensure the fadedbox takes the full height of the image */
         display: flex; /* Use flexbox to center text vertically and horizontally */
         justify-content: center;
         align-items: center;
