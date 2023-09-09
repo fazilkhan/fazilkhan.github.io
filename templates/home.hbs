@@ -95,18 +95,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script>// Get all elements with the "hover-effect" class
-var hoverElements = document.querySelectorAll('.hover-effect');
+            var hoverElements = document.querySelectorAll('.hover-effect');
 
-// Add touch event listeners to toggle the "touched" class
-hoverElements.forEach(function(element) {
-    element.addEventListener('touchstart', function() {
-        element.classList.add('touched');
-    });
+            // Add touch event listeners to toggle the "touched" class
+            hoverElements.forEach(function(element) {
+                element.addEventListener('touchstart', function() {
+                    element.classList.add('touched');
+                });
 
-    element.addEventListener('touchend', function() {
-        element.classList.remove('touched');
-    });
-});
-</script>
+                element.addEventListener('touchend', function() {
+                    element.classList.remove('touched');
+                });
+            });
+    </script>
   </body>
 </html>
